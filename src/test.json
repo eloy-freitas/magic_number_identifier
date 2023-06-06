@@ -1,0 +1,11 @@
+[
+    {
+        "File description": "PNG image",
+        "Header": "89 50 4E 47 0D 0A 1A 0A",
+        "Hex": "0x89504e470d0a1a0a",
+        "File extension": "PNG",
+        "FileClass": "Picture",
+        "Header offset": "0",
+        "Trailer (hex)": "49 45 4E 44 AE 42 60 82"
+    }
+]

@@ -1,15 +1,7 @@
+import sys
 import json as js
 import pandas as pd
 
-def treat_dataset(dataset):
-    str_to_hex = lambda x: hex(int(f"0x{x.replace(' ', '')}", 16))
-
-    dataset['HeaderFormatted'] = dataset['Header'].map(str_to_hex)
-    
-    dataset['FilesFound'] = 0
-
-    return dataset
-    
 
 def read_dataset(path):
     with open(path, 'r') as file:
@@ -20,31 +12,67 @@ def read_dataset(path):
 
 def find_file_sign(header, path):
     count = 0
-    with open(path, 'rb') as file:
-        while content := file.read(8).hex():
-            hex_string = hex(int(content, 16))
-            if hex_string == header:
-                count += 1
+    
+    try:
+        with open(path, 'rb') as file:
+            while content := file.read(8).hex():
+                hex_string = hex(int(content, 16))
+                if hex_string == header:
+                    count += 1
+    except IOError as e:
+        raise IOError(
+            "Falha na leitura do arquivo"
+            f"MENSAGEM: {e}"
+        )
     
     return count
 
+def search_headers(dataset, file_path, header=None):
+    columns = [
+        "File description",
+        "Header",
+        "Found"
+    ]
 
-def run(file_path, file_sigs_path):
-    tbl_sigs:pd.DataFrame = read_dataset(file_sigs_path)
+    result_set = pd.DataFrame(columns=columns)
+    
+    if header:
+        dataset = dataset.query(f"Hex == '{header}'")
+        qtd_files = find_file_sign(header, file_path)
+        print(dataset)
+        print(f"Found:{qtd_files}")
 
-    tbl_sigs = treat_dataset(tbl_sigs)
+    else:
+        for row in dataset.itertuples():
+            file_desc = row[1]
+            header = row[2]
+            hex_str = row[3]
+            
+            qtd_files = find_file_sign(hex_str, file_path)
 
-    for row in tbl_sigs.itertuples():
-        hex_str = row[7]
-        header = row[2]
-        file_desc = row[1]
-        qtd_files = find_file_sign(hex_str, file_path)
-        
-        print(f"File description: {file_desc}, Header: {header}, Files found:{qtd_files}")
-        
+            result = {
+                "File description": [file_desc],
+                "Header": [header], 
+                "Found": [qtd_files]
+            }
+
+            result = pd.DataFrame(result)
+
+            if qtd_files > 0:
+                print(result)
+
+            result_set = pd.concat([result_set, result])
 
 
+def run(file_path, file_sigs_path, header=None):
+    dataset = read_dataset(file_sigs_path)
+    
+    search_headers(dataset, file_path, header)
 
 
 if __name__ == '__main__':
-    run('./imagem.img', 'file_sigs.json')
+    if len(sys.argv) > 0:
+        sig = sys.argv[1]
+    
+    run('./imagem.img', 'test.json', header=sig)
+    
