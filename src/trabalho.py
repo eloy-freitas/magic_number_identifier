@@ -2,15 +2,46 @@ import sys
 import json as js
 import pandas as pd
 
+FILE_NOT_FOUND_ERROR_MESSAGE = """
+    Falha na leitura do arquivo"
+    "MENSAGEM: {}
+"""
 
-def read_dataset(path):
-    with open(path, 'r') as file:
-        data = js.load(file)
+
+def read_dataset(path: str):
+    """
+    Faz a leitura de json com assinatura de arquivos conhecidas
+    e retorna um dataset
+
+    params:
+        `path` - path do arquivo (`str`)
+    
+    return:
+        dataset com assinatura de arquivos (`pandas.Dataframe`)
+
+    """
+    try:
+        with open(path, 'r') as file:
+            data = js.load(file)
+    except IOError as e:
+        raise IOError(
+            FILE_NOT_FOUND_ERROR_MESSAGE.format(e)
+        )
     dataset = pd.DataFrame(data)
 
     return dataset
 
 def find_file_sign(header, path):
+    """
+    Percorre todos os bytes de um arquivo em busca de um assinatura
+
+    params:
+        `header` - string de um número heximadecimal (ex: 0x89504e470d0a1a0a)
+        `path` - path do arquivo que está sendo lido
+    
+    return:
+        quantidade de arquivos encontrados (`int`)
+    """
     count = 0
     
     try:
@@ -21,18 +52,29 @@ def find_file_sign(header, path):
                     count += 1
     except IOError as e:
         raise IOError(
-            "Falha na leitura do arquivo"
-            f"MENSAGEM: {e}"
+            FILE_NOT_FOUND_ERROR_MESSAGE.format(e)
         )
     
     return count
 
-def search_headers(dataset, file_path, header=None):
+def search_headers(dataset, path, header=None):
+    """
+    Faz a busca por todos cabeçalhos de arquivos contidos no dataset 
+    e retorna 
+
+    params:
+        `dataset`: dataset com assinatura de arquivos
+        `path`: path do arquivo alvo
+        `header`: a busca é feita em cima de uma assinatura específica em vex do dataset inteiro
+    
+    return:
+        dataset de arquivos encontrados
+        
+    """
     dataset['Found'] = 0
     
     if header:
-        
-        qtd_files = find_file_sign(header, file_path)
+        qtd_files = find_file_sign(header, path)
         dataset.loc[dataset['Hex'] == header, ['Found']] = qtd_files
 
         print(dataset.loc[dataset['Hex'] == header].to_string(index=False))
@@ -40,7 +82,7 @@ def search_headers(dataset, file_path, header=None):
         for row in dataset.itertuples():
             hex_str = row[3]
             
-            qtd_files = find_file_sign(hex_str, file_path)
+            qtd_files = find_file_sign(hex_str, path)
 
             dataset.loc[dataset['Hex'] == hex_str, ['Found']] = qtd_files
 
@@ -48,19 +90,20 @@ def search_headers(dataset, file_path, header=None):
                 print(dataset.loc[dataset['Hex'] == hex_str].to_string(index=False))
 
 
-def run(file_path, file_sigs_path, header=None):
+def run(path, file_sigs_path, header=None):
     dataset = read_dataset(file_sigs_path)
-    search_headers(dataset, file_path, header)
+    search_headers(dataset, path, header)
 
 
 if __name__ == '__main__':
     sig = None
+    
     if len(sys.argv) > 1:
-        file_path = sys.argv[1]
+        path = sys.argv[1]
         try:
             sig = sys.argv[2]
         except:
             pass
         
-    run(file_path, 'test.json', header=sig)
+    run(path, 'test.json', header=sig)
     
