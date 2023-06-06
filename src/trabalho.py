@@ -28,13 +28,6 @@ def find_file_sign(header, path):
     return count
 
 def search_headers(dataset, file_path, header=None):
-    columns = [
-        "File description",
-        "Header",
-        "Found"
-    ]
-
-    result_set = pd.DataFrame(columns=columns)
     
     if header:
         dataset = dataset.query(f"Hex == '{header}'")
@@ -43,6 +36,14 @@ def search_headers(dataset, file_path, header=None):
         print(f"Found:{qtd_files}")
 
     else:
+        columns = [
+            "File description",
+            "Header",
+            "Found"
+        ]
+
+        # result_set = pd.DataFrame(columns=columns)
+
         for row in dataset.itertuples():
             file_desc = row[1]
             header = row[2]
@@ -61,7 +62,7 @@ def search_headers(dataset, file_path, header=None):
             if qtd_files > 0:
                 print(result)
 
-            result_set = pd.concat([result_set, result])
+            # result_set = pd.concat([result_set, result])
 
 
 def run(file_path, file_sigs_path, header=None):
@@ -71,8 +72,9 @@ def run(file_path, file_sigs_path, header=None):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 0:
+    sig = None
+    if len(sys.argv) > 1:
         sig = sys.argv[1]
-    
+        
     run('./imagem.img', 'test.json', header=sig)
     
