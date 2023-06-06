@@ -28,53 +28,39 @@ def find_file_sign(header, path):
     return count
 
 def search_headers(dataset, file_path, header=None):
+    dataset['Found'] = 0
     
     if header:
-        dataset = dataset.query(f"Hex == '{header}'")
+        
         qtd_files = find_file_sign(header, file_path)
-        print(dataset)
-        print(f"Found:{qtd_files}")
+        dataset.loc[dataset['Hex'] == header, ['Found']] = qtd_files
 
+        print(dataset.loc[dataset['Hex'] == header].to_string(index=False))
     else:
-        columns = [
-            "File description",
-            "Header",
-            "Found"
-        ]
-
-        # result_set = pd.DataFrame(columns=columns)
-
         for row in dataset.itertuples():
-            file_desc = row[1]
-            header = row[2]
             hex_str = row[3]
             
             qtd_files = find_file_sign(hex_str, file_path)
 
-            result = {
-                "File description": [file_desc],
-                "Header": [header], 
-                "Found": [qtd_files]
-            }
-
-            result = pd.DataFrame(result)
+            dataset.loc[dataset['Hex'] == hex_str, ['Found']] = qtd_files
 
             if qtd_files > 0:
-                print(result)
-
-            # result_set = pd.concat([result_set, result])
+                print(dataset.loc[dataset['Hex'] == hex_str].to_string(index=False))
 
 
 def run(file_path, file_sigs_path, header=None):
     dataset = read_dataset(file_sigs_path)
-    
     search_headers(dataset, file_path, header)
 
 
 if __name__ == '__main__':
     sig = None
     if len(sys.argv) > 1:
-        sig = sys.argv[1]
+        file_path = sys.argv[1]
+        try:
+            sig = sys.argv[2]
+        except:
+            pass
         
-    run('./imagem.img', 'test.json', header=sig)
+    run(file_path, 'test.json', header=sig)
     

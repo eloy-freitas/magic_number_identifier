@@ -3,7 +3,7 @@
   {
     "File description": "JPEG2000 image files",
     "Header": "00 00 00 0C 6A 50 20 20",
-    "Hex": "0x0000000C6A502020",
+    "Hex": "0x0000000c6a502020",
     "File extension": "JP2",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -21,7 +21,7 @@
   {
     "File description": "MPEG-4 v1",
     "Header": "00 00 00 14 66 74 79 70 69 73 6F 6D",
-    "Hex": "0x000000146674797069736F6D",
+    "Hex": "0x000000146674797069736f6d",
     "File extension": "MP4",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -66,7 +66,7 @@
   {
     "File description": "MPEG-4 video_2",
     "Header": "00 00 00 1C 66 74 79 70",
-    "Hex": "0x0000001C66747970",
+    "Hex": "0x0000001c66747970",
     "File extension": "MP4",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -84,7 +84,7 @@
   {
     "File description": "Apple audio and video",
     "Header": "00 00 00 20 66 74 79 70 4D 34 41",
-    "Hex": "0x00000020667479704D3441",
+    "Hex": "0x00000020667479704d3441",
     "File extension": "M4A",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -111,7 +111,7 @@
   {
     "File description": "MPEG video file",
     "Header": "00 00 01 B3",
-    "Hex": "0x000001B3",
+    "Hex": "0x000001b3",
     "File extension": "MPG",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -120,7 +120,7 @@
   {
     "File description": "DVD video file",
     "Header": "00 00 01 BA",
-    "Hex": "0x000001BA",
+    "Hex": "0x000001ba",
     "File extension": "MPG|VOB",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -156,7 +156,7 @@
   {
     "File description": "Amiga Hunk executable",
     "Header": "00 00 03 F3",
-    "Hex": "0x000003F3",
+    "Hex": "0x000003f3",
     "File extension": "(none)",
     "FileClass": "System",
     "Header offset": "0",
@@ -165,7 +165,7 @@
   {
     "File description": "Wii images container",
     "Header": "00 20 AF 30",
-    "Hex": "0x0020AF30",
+    "Hex": "0x0020af30",
     "File extension": "TPL",
     "FileClass": "System",
     "Header offset": "0",
@@ -183,7 +183,7 @@
   {
     "File description": "Lotus 1-2-3 (v3)",
     "Header": "00 00 1A 00 00 10 04 00",
-    "Hex": "0x00001A0000100400",
+    "Hex": "0x00001a0000100400",
     "File extension": "WK3",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -192,7 +192,7 @@
   {
     "File description": "Lotus 1-2-3 (v4-v5)",
     "Header": "00 00 1A 00 02 10 04 00",
-    "Hex": "0x00001A0002100400",
+    "Hex": "0x00001a0002100400",
     "File extension": "WK4|WK5",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -201,7 +201,7 @@
   {
     "File description": "Lotus 1-2-3 (v9)",
     "Header": "00 00 1A 00 05 10 04",
-    "Hex": "0x00001A00051004",
+    "Hex": "0x00001a00051004",
     "File extension": "123",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -219,7 +219,7 @@
   {
     "File description": "Quark Express (Motorola)",
     "Header": "00 00 4D 4D 58 50 52",
-    "Hex": "0x00004D4D585052",
+    "Hex": "0x00004d4d585052",
     "File extension": "QXD",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -228,7 +228,7 @@
   {
     "File description": "Windows Help file_1",
     "Header": "00 00 FF FF FF FF",
-    "Hex": "0x0000FFFFFFFF",
+    "Hex": "0x0000ffffffff",
     "File extension": "HLP",
     "FileClass": "Windows",
     "Header offset": "6",
@@ -246,7 +246,7 @@
   {
     "File description": "Microsoft Money file",
     "Header": "00 01 00 00 4D 53 49 53 41 4D 20 44 61 74 61 62 61 73 65",
-    "Hex": "0x000100004D534953414D204461746162617365",
+    "Hex": "0x000100004d534953414d204461746162617365",
     "File extension": "MNY",
     "FileClass": "Finance",
     "Header offset": "0",
@@ -255,7 +255,7 @@
   {
     "File description": "Microsoft Access 2007",
     "Header": "00 01 00 00 53 74 61 6E 64 61 72 64 20 41 43 45 20 44 42",
-    "Hex": "0x000100005374616E6461726420414345204442",
+    "Hex": "0x000100005374616e6461726420414345204442",
     "File extension": "ACCDB",
     "FileClass": "Database",
     "Header offset": "0",
@@ -264,7 +264,7 @@
   {
     "File description": "Microsoft Access",
     "Header": "00 01 00 00 53 74 61 6E 64 61 72 64 20 4A 65 74 20 44 42",
-    "Hex": "0x000100005374616E64617264204A6574204442",
+    "Hex": "0x000100005374616e64617264204a6574204442",
     "File extension": "MDB",
     "FileClass": "Database",
     "Header offset": "0",
@@ -291,7 +291,7 @@
   {
     "File description": "Netscape Navigator (v4) database",
     "Header": "00 06 15 61 00 00 00 02 00 00 04 D2 00 00 10 00",
-    "Hex": "0x0006156100000002000004D200001000",
+    "Hex": "0x0006156100000002000004d200001000",
     "File extension": "DB",
     "FileClass": "Network",
     "Header offset": "0",
@@ -300,7 +300,7 @@
   {
     "File description": "Mbox table of contents file",
     "Header": "00 0D BB A0",
-    "Hex": "0x000DBBA0",
+    "Hex": "0x000dbba0",
     "File extension": "(none)",
     "FileClass": "E-mail",
     "Header offset": "0",
@@ -327,7 +327,7 @@
   {
     "File description": "Netscape Communicator (v4) mail folder",
     "Header": "00 1E 84 90 00 00 00 00",
-    "Hex": "0x001E849000000000",
+    "Hex": "0x001e849000000000",
     "File extension": "SNM",
     "FileClass": "Email",
     "Header offset": "0",
@@ -336,7 +336,7 @@
   {
     "File description": "PowerPoint presentation subheader_1",
     "Header": "00 6E 1E F0",
-    "Hex": "0x006E1EF0",
+    "Hex": "0x006e1ef0",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -363,7 +363,7 @@
   {
     "File description": "The Bat! Message Base Index",
     "Header": "01 01 47 19 A4 00 00 00 00 00 00 00",
-    "Hex": "0x01014719A400000000000000",
+    "Hex": "0x01014719a400000000000000",
     "File extension": "TBI",
     "FileClass": "Email",
     "Header offset": "0",
@@ -372,7 +372,7 @@
   {
     "File description": "SQL Data Base",
     "Header": "01 0F 00 00",
-    "Hex": "0x010F0000",
+    "Hex": "0x010f0000",
     "File extension": "MDF",
     "FileClass": "Database",
     "Header offset": "0",
@@ -390,7 +390,7 @@
   {
     "File description": "Silicon Graphics RGB Bitmap",
     "Header": "01 DA 01 01 00 03",
-    "Hex": "0x01DA01010003",
+    "Hex": "0x01da01010003",
     "File extension": "RGB",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -399,7 +399,7 @@
   {
     "File description": "Micrografx vector graphic file",
     "Header": "01 FF 02 04 03 02",
-    "Hex": "0x01FF02040302",
+    "Hex": "0x01ff02040302",
     "File extension": "DRW",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -498,7 +498,7 @@
   {
     "File description": "Adobe InDesign",
     "Header": "06 06 ED F5 D8 1D 46 E5 BD 31 EF E7 FE 74 B7 1D",
-    "Hex": "0x0606EDF5D81D46E5BD31EFE7FE74B71D",
+    "Hex": "0x0606edf5d81d46e5bd31efe7fe74b71d",
     "File extension": "INDD",
     "FileClass": "Media",
     "Header offset": "0",
@@ -507,7 +507,7 @@
   {
     "File description": "Material Exchange Format",
     "Header": "06 0E 2B 34 02 05 01 01 0D 01 02 01 01 02",
-    "Hex": "0x060E2B34020501010D0102010102",
+    "Hex": "0x060e2b34020501010d0102010102",
     "File extension": "MXF",
     "FileClass": "Media",
     "Header offset": "0",
@@ -525,7 +525,7 @@
   {
     "File description": "SkinCrafter skin",
     "Header": "07 53 4B 46",
-    "Hex": "0x07534B46",
+    "Hex": "0x07534b46",
     "File extension": "SKF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -561,7 +561,7 @@
   {
     "File description": "ZSOFT Paintbrush file_1",
     "Header": "0A 02 01 01",
-    "Hex": "0x0A020101",
+    "Hex": "0x0a020101",
     "File extension": "PCX",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -570,7 +570,7 @@
   {
     "File description": "ZSOFT Paintbrush file_2",
     "Header": "0A 03 01 01",
-    "Hex": "0x0A030101",
+    "Hex": "0x0a030101",
     "File extension": "PCX",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -579,7 +579,7 @@
   {
     "File description": "ZSOFT Paintbrush file_3",
     "Header": "0A 05 01 01",
-    "Hex": "0x0A050101",
+    "Hex": "0x0a050101",
     "File extension": "PCX",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -588,7 +588,7 @@
   {
     "File description": "MultiBit Bitcoin wallet file",
     "Header": "0A 16 6F 72 67 2E 62 69 74 63 6F 69 6E 2E 70 72",
-    "Hex": "0x0A166F72672E626974636F696E2E7072",
+    "Hex": "0x0a166f72672e626974636f696e2e7072",
     "File extension": "WALLET",
     "FileClass": "e-money",
     "Header offset": "0",
@@ -597,7 +597,7 @@
   {
     "File description": "Monochrome Picture TIFF bitmap",
     "Header": "0C ED",
-    "Hex": "0x0CED",
+    "Hex": "0x0ced",
     "File extension": "MP",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -606,7 +606,7 @@
   {
     "File description": "DeskMate Document",
     "Header": "0D 44 4F 43",
-    "Hex": "0x0D444F43",
+    "Hex": "0x0d444f43",
     "File extension": "DOC",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -615,7 +615,7 @@
   {
     "File description": "Nero CD compilation",
     "Header": "0E 4E 65 72 6F 49 53 4F",
-    "Hex": "0x0E4E65726F49534F",
+    "Hex": "0x0e4e65726f49534f",
     "File extension": "NRI",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -624,7 +624,7 @@
   {
     "File description": "DeskMate Worksheet",
     "Header": "0E 57 4B 53",
-    "Hex": "0x0E574B53",
+    "Hex": "0x0e574b53",
     "File extension": "WKS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -633,7 +633,7 @@
   {
     "File description": "PowerPoint presentation subheader_2",
     "Header": "0F 00 E8 03",
-    "Hex": "0x0F00E803",
+    "Hex": "0x0f00e803",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -642,7 +642,7 @@
   {
     "File description": "Sibelius Music - Score",
     "Header": "0F 53 49 42 45 4C 49 55 53",
-    "Hex": "0x0F534942454C495553",
+    "Hex": "0x0f534942454c495553",
     "File extension": "SIB",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -669,7 +669,7 @@
   {
     "File description": "Lotus Notes database template",
     "Header": "1A 00 00",
-    "Hex": "0x1A0000",
+    "Hex": "0x1a0000",
     "File extension": "NTF",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -678,7 +678,7 @@
   {
     "File description": "Lotus Notes database",
     "Header": "1A 00 00 04 00 00",
-    "Hex": "0x1A0000040000",
+    "Hex": "0x1a0000040000",
     "File extension": "NSF",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -687,7 +687,7 @@
   {
     "File description": "LH archive (old vers.-type 1)",
     "Header": "1A 02",
-    "Hex": "0x1A02",
+    "Hex": "0x1a02",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -696,7 +696,7 @@
   {
     "File description": "LH archive (old vers.-type 2)",
     "Header": "1A 03",
-    "Hex": "0x1A03",
+    "Hex": "0x1a03",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -705,7 +705,7 @@
   {
     "File description": "LH archive (old vers.-type 3)",
     "Header": "1A 04",
-    "Hex": "0x1A04",
+    "Hex": "0x1a04",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -714,7 +714,7 @@
   {
     "File description": "LH archive (old vers.-type 4)",
     "Header": "1A 08",
-    "Hex": "0x1A08",
+    "Hex": "0x1a08",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -723,7 +723,7 @@
   {
     "File description": "LH archive (old vers.-type 5)",
     "Header": "1A 09",
-    "Hex": "0x1A09",
+    "Hex": "0x1a09",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -732,7 +732,7 @@
   {
     "File description": "Compressed archive file",
     "Header": "1A 0B",
-    "Hex": "0x1A0B",
+    "Hex": "0x1a0b",
     "File extension": "PAK",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -741,7 +741,7 @@
   {
     "File description": "WinPharoah capture file",
     "Header": "1A 35 01 00",
-    "Hex": "0x1A350100",
+    "Hex": "0x1a350100",
     "File extension": "ETH",
     "FileClass": "Network",
     "Header offset": "0",
@@ -750,7 +750,7 @@
   {
     "File description": "WebM video file",
     "Header": "1A 45 DF A3",
-    "Hex": "0x1A45DFA3",
+    "Hex": "0x1a45dfa3",
     "File extension": "WEBM",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -759,7 +759,7 @@
   {
     "File description": "Matroska stream file_1",
     "Header": "1A 45 DF A3",
-    "Hex": "0x1A45DFA3",
+    "Hex": "0x1a45dfa3",
     "File extension": "MKV",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -768,7 +768,7 @@
   {
     "File description": "Matroska stream file_2",
     "Header": "1A 45 DF A3 93 42 82 88",
-    "Hex": "0x1A45DFA393428288",
+    "Hex": "0x1a45dfa393428288",
     "File extension": "MKV",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -777,7 +777,7 @@
   {
     "File description": "Runtime Software disk image",
     "Header": "1A 52 54 53 20 43 4F 4D",
-    "Hex": "0x1A52545320434F4D",
+    "Hex": "0x1a52545320434f4d",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -786,7 +786,7 @@
   {
     "File description": "WordStar Version 5.0-6.0 document",
     "Header": "1D 7D",
-    "Hex": "0x1D7D",
+    "Hex": "0x1d7d",
     "File extension": "WS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -795,7 +795,7 @@
   {
     "File description": "GZIP archive file",
     "Header": "1F 8B 08",
-    "Hex": "0x1F8B08",
+    "Hex": "0x1f8b08",
     "File extension": "GZ",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -804,7 +804,7 @@
   {
     "File description": "VLC Player Skin file",
     "Header": "1F 8B 08",
-    "Hex": "0x1F8B08",
+    "Hex": "0x1f8b08",
     "File extension": "VLT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -813,7 +813,7 @@
   {
     "File description": "Synology router configuration backup file",
     "Header": "1F 8B 08 00",
-    "Hex": "0x1F8B0800",
+    "Hex": "0x1f8b0800",
     "File extension": "DSS",
     "FileClass": "Network",
     "Header offset": "0",
@@ -822,7 +822,7 @@
   {
     "File description": "Compressed tape archive_1",
     "Header": "1F 9D 90",
-    "Hex": "0x1F9D90",
+    "Hex": "0x1f9d90",
     "File extension": "TAR.Z",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -831,7 +831,7 @@
   {
     "File description": "Compressed tape archive_2",
     "Header": "1F A0",
-    "Hex": "0x1FA0",
+    "Hex": "0x1fa0",
     "File extension": "TAR.Z",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -849,7 +849,7 @@
   {
     "File description": "NOAA Raster Navigation Chart (RNC) file",
     "Header": "21 0D 0A 43 52 52 2F 54 68 69 73 20 65 6C 65 63",
-    "Hex": "0x210D0A4352522F5468697320656C6563",
+    "Hex": "0x210d0a4352522f5468697320656c6563",
     "File extension": "BSB",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -867,7 +867,7 @@
   {
     "File description": "Unix archiver (ar)-MS Program Library Common Object File Format (COFF)",
     "Header": "21 3C 61 72 63 68 3E 0A",
-    "Hex": "0x213C617263683E0A",
+    "Hex": "0x213c617263683e0a",
     "File extension": "LIB",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -876,7 +876,7 @@
   {
     "File description": "Microsoft Outlook Exchange Offline Storage Folder",
     "Header": "21 42 44 4E",
-    "Hex": "0x2142444E",
+    "Hex": "0x2142444e",
     "File extension": "OST",
     "FileClass": "Email",
     "Header offset": "0",
@@ -894,7 +894,7 @@
   {
     "File description": "VMware 4 Virtual Disk description",
     "Header": "23 20 44 69 73 6B 20 44",
-    "Hex": "0x23204469736B2044",
+    "Hex": "0x23204469736b2044",
     "File extension": "VMDK",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -903,7 +903,7 @@
   {
     "File description": "MS Developer Studio project file",
     "Header": "23 20 4D 69 63 72 6F 73",
-    "Hex": "0x23204D6963726F73",
+    "Hex": "0x23204d6963726f73",
     "File extension": "DSP",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -912,7 +912,7 @@
   {
     "File description": "Google Earth Keyhole Placemark file",
     "Header": "23 20 54 68 69 73 20 69 73 20 61 6E 20 4B 65 79",
-    "Hex": "0x23205468697320697320616E204B6579",
+    "Hex": "0x23205468697320697320616e204b6579",
     "File extension": "ETA",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -921,7 +921,7 @@
   {
     "File description": "Adaptive Multi-Rate ACELP Codec (GSM)",
     "Header": "23 21 41 4D 52",
-    "Hex": "0x2321414D52",
+    "Hex": "0x2321414d52",
     "File extension": "AMR",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -930,7 +930,7 @@
   {
     "File description": "Skype audio compression",
     "Header": "23 21 53 49 4C 4B 0A",
-    "Hex": "0x232153494C4B0A",
+    "Hex": "0x232153494c4b0a",
     "File extension": "SIL",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -939,7 +939,7 @@
   {
     "File description": "Radiance High Dynamic Range image file",
     "Header": "23 3F 52 41 44 49 41 4E",
-    "Hex": "0x233F52414449414E",
+    "Hex": "0x233f52414449414e",
     "File extension": "HDR",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -948,7 +948,7 @@
   {
     "File description": "VBScript Encoded script",
     "Header": "23 40 7E 5E",
-    "Hex": "0x23407E5E",
+    "Hex": "0x23407e5e",
     "File extension": "VBE",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -957,7 +957,7 @@
   {
     "File description": "NVIDIA Scene Graph binary file",
     "Header": "23 4E 42 46",
-    "Hex": "0x234E4246",
+    "Hex": "0x234e4246",
     "File extension": "NBF",
     "FileClass": "Video",
     "Header offset": "0",
@@ -984,7 +984,7 @@
   {
     "File description": "SPSS Data file",
     "Header": "24 46 4C 32 40 28 23 29",
-    "Hex": "0x24464C3240282329",
+    "Hex": "0x24464c3240282329",
     "File extension": "SAV",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -993,7 +993,7 @@
   {
     "File description": "Encapsulated PostScript file",
     "Header": "25 21 50 53 2D 41 64 6F",
-    "Hex": "0x252150532D41646F",
+    "Hex": "0x252150532d41646f",
     "File extension": "EPS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -1011,7 +1011,7 @@
   {
     "File description": "Fuzzy bitmap (FBM) file",
     "Header": " 25 62 69 74 6D 61 70",
-    "Hex": "0x256269746D6170",
+    "Hex": "0x256269746d6170",
     "File extension": "FBM",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -1029,7 +1029,7 @@
   {
     "File description": "Symantec Wise Installer log",
     "Header": " 2A 2A 2A 20 20 49 6E 73",
-    "Hex": "0x2A2A2A2020496E73",
+    "Hex": "0x2a2a2a2020496e73",
     "File extension": "LOG",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1038,7 +1038,7 @@
   {
     "File description": "Compressed archive",
     "Header": "2D 6C 68",
-    "Hex": "0x2D6C68",
+    "Hex": "0x2d6c68",
     "File extension": "LHA|LZH",
     "FileClass": "Compressed archive",
     "Header offset": "2",
@@ -1047,7 +1047,7 @@
   {
     "File description": "RealPlayer video file (V11+)",
     "Header": "2E 52 45 43",
-    "Hex": "0x2E524543",
+    "Hex": "0x2e524543",
     "File extension": "IVR",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1056,7 +1056,7 @@
   {
     "File description": "RealMedia streaming media",
     "Header": "2E 52 4D 46",
-    "Hex": "0x2E524D46",
+    "Hex": "0x2e524d46",
     "File extension": "RM|RMVB",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1065,7 +1065,7 @@
   {
     "File description": "RealAudio file",
     "Header": "2E 52 4D 46 00 00 00 12",
-    "Hex": "0x2E524D4600000012",
+    "Hex": "0x2e524d4600000012",
     "File extension": "RA",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1074,7 +1074,7 @@
   {
     "File description": "RealAudio streaming media",
     "Header": "2E 72 61 FD 00",
-    "Hex": "0x2E7261FD00",
+    "Hex": "0x2e7261fd00",
     "File extension": "RA",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1083,7 +1083,7 @@
   {
     "File description": "NeXT-Sun Microsystems audio file",
     "Header": "2E 73 6E 64",
-    "Hex": "0x2E736E64",
+    "Hex": "0x2e736e64",
     "File extension": "AU",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1092,7 +1092,7 @@
   {
     "File description": "Thunderbird-Mozilla Mail Summary File",
     "Header": "2F 2F 20 3C 21 2D 2D 20 3C 6D 64 62 3A 6D 6F 72 6B 3A 7A",
-    "Hex": "0x2F2F203C212D2D203C6D64623A6D6F726B3A7A",
+    "Hex": "0x2f2f203c212d2d203c6d64623a6d6f726b3a7a",
     "File extension": "MSF",
     "FileClass": "E-mail",
     "Header offset": "0",
@@ -1110,7 +1110,7 @@
   {
     "File description": "Windows Event Viewer file",
     "Header": "30 00 00 00 4C 66 4C 65",
-    "Hex": "0x300000004C664C65",
+    "Hex": "0x300000004c664c65",
     "File extension": "EVT",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1128,7 +1128,7 @@
   {
     "File description": "Windows Media Audio-Video File",
     "Header": "30 26 B2 75 8E 66 CF 11",
-    "Hex": "0x3026B2758E66CF11",
+    "Hex": "0x3026b2758e66cf11",
     "File extension": "ASF|WMA|WMV",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1137,7 +1137,7 @@
   {
     "File description": "National Transfer Format Map",
     "Header": "30 31 4F 52 44 4E 41 4E",
-    "Hex": "0x30314F52444E414E",
+    "Hex": "0x30314f52444e414e",
     "File extension": "NTF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1155,7 +1155,7 @@
   {
     "File description": "MS Write file_1",
     "Header": "31 BE",
-    "Hex": "0x31BE",
+    "Hex": "0x31be",
     "File extension": "WRI",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -1164,7 +1164,7 @@
   {
     "File description": "MS Write file_2",
     "Header": "32 BE",
-    "Hex": "0x32BE",
+    "Hex": "0x32be",
     "File extension": "WRI",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -1173,7 +1173,7 @@
   {
     "File description": "Pfaff Home Embroidery",
     "Header": "32 03 10 00 00 00 00 00 00 00 80 00 00 00 FF 00",
-    "Hex": "0x3203100000000000000080000000FF00",
+    "Hex": "0x3203100000000000000080000000ff00",
     "File extension": "PCS",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1182,7 +1182,7 @@
   {
     "File description": "Tcpdump capture file",
     "Header": "34 CD B2 A1",
-    "Hex": "0x34CDB2A1",
+    "Hex": "0x34cdb2a1",
     "File extension": "(none)",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1191,7 +1191,7 @@
   {
     "File description": "7-Zip compressed file",
     "Header": "37 7A BC AF 27 1C",
-    "Hex": "0x377ABCAF271C",
+    "Hex": "0x377abcaf271c",
     "File extension": "7Z",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1200,7 +1200,7 @@
   {
     "File description": "zisofs compressed file",
     "Header": "37 E4 53 96 C9 DB D6 07",
-    "Hex": "0x37E45396C9DBD607",
+    "Hex": "0x37e45396c9dbd607",
     "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1218,7 +1218,7 @@
   {
     "File description": "Surfplan kite project file",
     "Header": "3A 56 45 52 53 49 4F 4E",
-    "Hex": "0x3A56455253494F4E",
+    "Hex": "0x3a56455253494f4e",
     "File extension": "SLE",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1227,7 +1227,7 @@
   {
     "File description": "Advanced Stream Redirector",
     "Header": "3C",
-    "Hex": "0x3C",
+    "Hex": "0x3c",
     "File extension": "ASX",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1236,7 +1236,7 @@
   {
     "File description": "BizTalk XML-Data Reduced Schema",
     "Header": "3C",
-    "Hex": "0x3C",
+    "Hex": "0x3c",
     "File extension": "XDR",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1245,7 +1245,7 @@
   {
     "File description": "AOL HTML mail",
     "Header": "3C 21 64 6F 63 74 79 70",
-    "Hex": "0x3C21646F63747970",
+    "Hex": "0x3c21646f63747970",
     "File extension": "DCI",
     "FileClass": "Email",
     "Header offset": "0",
@@ -1254,7 +1254,7 @@
   {
     "File description": "Windows Script Component",
     "Header": "3C 3F",
-    "Hex": "0x3C3F",
+    "Hex": "0x3c3f",
     "File extension": "WSC",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1263,7 +1263,7 @@
   {
     "File description": "Windows Visual Stylesheet",
     "Header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D",
-    "Hex": "0x3C3F786D6C2076657273696F6E3D",
+    "Hex": "0x3c3f786d6c2076657273696f6e3d",
     "File extension": "MANIFEST",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -1272,7 +1272,7 @@
   {
     "File description": "User Interface Language",
     "Header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E",
-    "Hex": "0x3C3F786D6C2076657273696F6E3D22312E30223F3E",
+    "Hex": "0x3c3f786d6c2076657273696f6e3d22312e30223f3e",
     "File extension": "XML",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1281,7 +1281,7 @@
   {
     "File description": "MMC Snap-in Control file",
     "Header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22",
-    "Hex": "0x3C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C4D4D435F436F6E736F6C6546696C6520436F6E736F6C6556657273696F6E3D22",
+    "Hex": "0x3c3f786d6c2076657273696f6e3d22312e30223f3e0d0a3c4d4d435f436f6e736f6c6546696c6520436f6e736f6c6556657273696f6e3d22",
     "File extension": "MSC",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1290,7 +1290,7 @@
   {
     "File description": "Picasa movie project file",
     "Header": "3C 43 54 72 61 6E 73 54 69 6D 65 6C 69 6E 65 3E",
-    "Hex": "0x3C435472616E7354696D656C696E653E",
+    "Hex": "0x3c435472616e7354696d656c696e653e",
     "File extension": "MXF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1299,7 +1299,7 @@
   {
     "File description": "Csound music",
     "Header": "3C 43 73 6F 75 6E 64 53 79 6E 74 68 65 73 69 7A",
-    "Hex": "0x3C43736F756E6453796E74686573697A",
+    "Hex": "0x3c43736f756e6453796e74686573697a",
     "File extension": "CSD",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1308,7 +1308,7 @@
   {
     "File description": "Google Earth Keyhole Overlay file",
     "Header": "3C 4B 65 79 68 6F 6C 65 3E",
-    "Hex": "0x3C4B6579686F6C653E",
+    "Hex": "0x3c4b6579686f6c653e",
     "File extension": "ETA",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -1317,7 +1317,7 @@
   {
     "File description": "Adobe FrameMaker",
     "Header": "3C 4D 61 6B 65 72 46 69",
-    "Hex": "0x3C4D616B65724669",
+    "Hex": "0x3c4d616b65724669",
     "File extension": "FM|MIF",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -1326,7 +1326,7 @@
   {
     "File description": "GPS Exchange (v1.1)",
     "Header": "3C 67 70 78 20 76 65 72 73 69 6F 6E 3D 22 31 2E",
-    "Hex": "0x3C6770782076657273696F6E3D22312E",
+    "Hex": "0x3c6770782076657273696f6e3d22312e",
     "File extension": "GPX",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -1335,7 +1335,7 @@
   {
     "File description": "BASE85 file",
     "Header": "3C 7E 36 3C 5C 25 5F 30 67 53 71 68 3B",
-    "Hex": "0x3C7E363C5C255F30675371683B",
+    "Hex": "0x3c7e363c5c255f30675371683b",
     "File extension": "B85",
     "FileClass": "Word processing",
     "Header offset": "0",
@@ -1344,7 +1344,7 @@
   {
     "File description": "Quatro Pro for Windows 7.0",
     "Header": "3E 00 03 00 FE FF 09 00 06",
-    "Hex": "0x3E000300FEFF090006",
+    "Hex": "0x3e000300feff090006",
     "File extension": "WB3",
     "FileClass": "Spreadsheet",
     "Header offset": "24",
@@ -1353,7 +1353,7 @@
   {
     "File description": "Windows Help file_2",
     "Header": "3F 5F 03 00",
-    "Hex": "0x3F5F0300",
+    "Hex": "0x3f5f0300",
     "File extension": "GID|HLP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1371,7 +1371,7 @@
   {
     "File description": "Analog Box (ABox) circuit files",
     "Header": "41 42 6F 78",
-    "Hex": "0x41426F78",
+    "Hex": "0x41426f78",
     "File extension": "ABOX2",
     "FileClass": "Audio",
     "Header offset": "0",
@@ -1407,7 +1407,7 @@
   {
     "File description": "Harvard Graphics symbol graphic",
     "Header": "41 4D 59 4F",
-    "Hex": "0x414D594F",
+    "Hex": "0x414d594f",
     "File extension": "SYW",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -1416,7 +1416,7 @@
   {
     "File description": "AOL config files",
     "Header": "41 4F 4C",
-    "Hex": "0x414F4C",
+    "Hex": "0x414f4c",
     "File extension": "ABI|ABY|BAG|IDX|IND|PFC",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1425,7 +1425,7 @@
   {
     "File description": "AOL and AIM buddy list",
     "Header": "41 4F 4C 20 46 65 65 64",
-    "Hex": "0x414F4C2046656564",
+    "Hex": "0x414f4c2046656564",
     "File extension": "BAG",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1434,7 +1434,7 @@
   {
     "File description": "AOL address book",
     "Header": "41 4F 4C 44 42",
-    "Hex": "0x414F4C4442",
+    "Hex": "0x414f4c4442",
     "File extension": "ABY",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1443,7 +1443,7 @@
   {
     "File description": "AOL user configuration",
     "Header": "41 4F 4C 44 42",
-    "Hex": "0x414F4C4442",
+    "Hex": "0x414f4c4442",
     "File extension": "IDX",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1452,7 +1452,7 @@
   {
     "File description": "AOL client preferences-settings file",
     "Header": "41 4F 4C 49 44 58",
-    "Hex": "0x414F4C494458",
+    "Hex": "0x414f4c494458",
     "File extension": "IND",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1461,7 +1461,7 @@
   {
     "File description": "AOL address book index",
     "Header": "41 4F 4C 49 4E 44 45 58",
-    "Hex": "0x414F4C494E444558",
+    "Hex": "0x414f4c494e444558",
     "File extension": "ABI",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1470,7 +1470,7 @@
   {
     "File description": "AOL personal file cabinet",
     "Header": "41 4F 4C 56 4D 31 30 30",
-    "Hex": "0x414F4C564D313030",
+    "Hex": "0x414f4c564d313030",
     "File extension": "ORG|PFC",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1479,7 +1479,7 @@
   {
     "File description": "AVG6 Integrity database",
     "Header": "41 56 47 36 5F 49 6E 74",
-    "Hex": "0x415647365F496E74",
+    "Hex": "0x415647365f496e74",
     "File extension": "DAT",
     "FileClass": "Database",
     "Header offset": "0",
@@ -1488,7 +1488,7 @@
   {
     "File description": "RIFF Windows Audio",
     "Header": "41 56 49 20 4C 49 53 54",
-    "Hex": "0x415649204C495354",
+    "Hex": "0x415649204c495354",
     "File extension": "AVI",
     "FileClass": "Multimedia",
     "Header offset": "8",
@@ -1524,7 +1524,7 @@
   {
     "File description": "vCard",
     "Header": "42 45 47 49 4E 3A 56 43",
-    "Hex": "0x424547494E3A5643",
+    "Hex": "0x424547494e3a5643",
     "File extension": "VCF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1533,7 +1533,7 @@
   {
     "File description": "Speedtouch router firmware",
     "Header": "42 4C 49 32 32 33",
-    "Hex": "0x424C49323233",
+    "Hex": "0x424c49323233",
     "File extension": "BIN|BLI|RBI",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1542,7 +1542,7 @@
   {
     "File description": "Bitmap image",
     "Header": "42 4D",
-    "Hex": "0x424D",
+    "Hex": "0x424d",
     "File extension": "BMP|DIB",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -1551,7 +1551,7 @@
   {
     "File description": "Palmpilot resource file",
     "Header": "42 4F 4F 4B 4D 4F 42 49",
-    "Hex": "0x424F4F4B4D4F4249",
+    "Hex": "0x424f4f4b4d4f4249",
     "File extension": "PRC",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -1560,7 +1560,7 @@
   {
     "File description": "Better Portable Graphics",
     "Header": "42 50 47 FB",
-    "Hex": "0x425047FB",
+    "Hex": "0x425047fb",
     "File extension": "BPG",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1569,7 +1569,7 @@
   {
     "File description": "bzip2 compressed archive",
     "Header": "42 5A 68",
-    "Hex": "0x425A68",
+    "Hex": "0x425a68",
     "File extension": "BZ2|TAR|BZ2|TBZ2|TB2",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1578,7 +1578,7 @@
   {
     "File description": "Mac Disk image (BZ2 compressed)",
     "Header": "42 5A 68",
-    "Hex": "0x425A68",
+    "Hex": "0x425a68",
     "File extension": "DMG",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1587,7 +1587,7 @@
   {
     "File description": "Puffer ASCII encrypted archive",
     "Header": "42 65 67 69 6E 20 50 75 66 66 65 72",
-    "Hex": "0x426567696E20507566666572",
+    "Hex": "0x426567696e20507566666572",
     "File extension": "APUF",
     "FileClass": "Encryption",
     "Header offset": "0",
@@ -1596,7 +1596,7 @@
   {
     "File description": "Blink compressed archive",
     "Header": "42 6C 69 6E 6B",
-    "Hex": "0x426C696E6B",
+    "Hex": "0x426c696e6b",
     "File extension": "BLI",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1605,7 +1605,7 @@
   {
     "File description": "RagTime document",
     "Header": "43 23 2B 44 A4 43 4D A5",
-    "Hex": "0x43232B44A4434DA5",
+    "Hex": "0x43232b44a4434da5",
     "File extension": "RTD",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -1623,7 +1623,7 @@
   {
     "File description": "WordPerfect dictionary",
     "Header": "43 42 46 49 4C 45",
-    "Hex": "0x434246494C45",
+    "Hex": "0x434246494c45",
     "File extension": "CBD",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -1641,7 +1641,7 @@
   {
     "File description": "RIFF CD audio",
     "Header": "43 44 44 41 66 6D 74 20",
-    "Hex": "0x43444441666D7420",
+    "Hex": "0x43444441666d7420",
     "File extension": "CDA",
     "FileClass": "Multimedia",
     "Header offset": "8",
@@ -1650,7 +1650,7 @@
   {
     "File description": "Compressed ISO CD image",
     "Header": "43 49 53 4F",
-    "Hex": "0x4349534F",
+    "Hex": "0x4349534f",
     "File extension": "CSO",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1659,7 +1659,7 @@
   {
     "File description": "Windows 7 thumbnail",
     "Header": "43 4D 4D 4D 15 00 00 00",
-    "Hex": "0x434D4D4D15000000",
+    "Hex": "0x434d4d4d15000000",
     "File extension": "DB",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1668,7 +1668,7 @@
   {
     "File description": "Corel Binary metafile",
     "Header": "43 4D 58 31",
-    "Hex": "0x434D5831",
+    "Hex": "0x434d5831",
     "File extension": "CLB",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1677,7 +1677,7 @@
   {
     "File description": "COM+ Catalog",
     "Header": "43 4F 4D 2B",
-    "Hex": "0x434F4D2B",
+    "Hex": "0x434f4d2b",
     "File extension": "CLB",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1686,7 +1686,7 @@
   {
     "File description": "VMware 3 Virtual Disk",
     "Header": "43 4F 57 44",
-    "Hex": "0x434F5744",
+    "Hex": "0x434f5744",
     "File extension": "VMDK",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1695,7 +1695,7 @@
   {
     "File description": "Corel Photopaint file_1",
     "Header": "43 50 54 37 46 49 4C 45",
-    "Hex": "0x4350543746494C45",
+    "Hex": "0x4350543746494c45",
     "File extension": "CPT",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -1704,7 +1704,7 @@
   {
     "File description": "Corel Photopaint file_2",
     "Header": "43 50 54 46 49 4C 45",
-    "Hex": "0x43505446494C45",
+    "Hex": "0x43505446494c45",
     "File extension": "CPT",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -1740,7 +1740,7 @@
   {
     "File description": "Calculux Indoor lighting project file",
     "Header": "43 61 6C 63 75 6C 75 78 20 49 6E 64 6F 6F 72 20",
-    "Hex": "0x43616C63756C757820496E646F6F7220",
+    "Hex": "0x43616c63756c757820496e646f6f7220",
     "File extension": "CIN",
     "FileClass": "Application",
     "Header offset": "0",
@@ -1749,7 +1749,7 @@
   {
     "File description": "WhereIsIt Catalog",
     "Header": "43 61 74 61 6C 6F 67 20",
-    "Hex": "0x436174616C6F6720",
+    "Hex": "0x436174616c6f6720",
     "File extension": "CTF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1758,7 +1758,7 @@
   {
     "File description": "IE History file",
     "Header": "43 6C 69 65 6E 74 20 55",
-    "Hex": "0x436C69656E742055",
+    "Hex": "0x436c69656e742055",
     "File extension": "DAT",
     "FileClass": "Network",
     "Header offset": "0",
@@ -1776,7 +1776,7 @@
   {
     "File description": "Google Chromium patch update",
     "Header": "43 72 4F 44",
-    "Hex": "0x43724F44",
+    "Hex": "0x43724f44",
     "File extension": "CRX",
     "FileClass": "System",
     "Header offset": "0",
@@ -1785,7 +1785,7 @@
   {
     "File description": "Creative Voice",
     "Header": "43 72 65 61 74 69 76 65 20 56 6F 69 63 65 20 46",
-    "Hex": "0x437265617469766520566F6963652046",
+    "Hex": "0x437265617469766520566f6963652046",
     "File extension": "VOC",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1821,7 +1821,7 @@
   {
     "File description": "Amiga DiskMasher compressed archive",
     "Header": "44 4D 53 21",
-    "Hex": "0x444D5321",
+    "Hex": "0x444d5321",
     "File extension": "DMS",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -1830,7 +1830,7 @@
   {
     "File description": "Amiga disk file",
     "Header": "44 4F 53",
-    "Hex": "0x444F53",
+    "Hex": "0x444f53",
     "File extension": "ADF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1866,7 +1866,7 @@
   {
     "File description": "Elite Plus Commander game file",
     "Header": "45 4C 49 54 45 20 43 6F",
-    "Hex": "0x454C49544520436F",
+    "Hex": "0x454c49544520436f",
     "File extension": "CDR",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1875,7 +1875,7 @@
   {
     "File description": "VideoVCD-VCDImager file",
     "Header": "45 4E 54 52 59 56 43 44",
-    "Hex": "0x454E545259564344",
+    "Hex": "0x454e545259564344",
     "File extension": "VCD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1920,7 +1920,7 @@
   {
     "File description": "Expert Witness Compression Format",
     "Header": "45 56 46 09 0D 0A FF 00",
-    "Hex": "0x455646090D0AFF00",
+    "Hex": "0x455646090d0aff00",
     "File extension": "E01",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1929,7 +1929,7 @@
   {
     "File description": "EnCase Evidence File Format V2",
     "Header": "45 56 46 32 0D 0A 81",
-    "Hex": "0x455646320D0A81",
+    "Hex": "0x455646320d0a81",
     "File extension": "Ex01",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1938,7 +1938,7 @@
   {
     "File description": "Windows Vista event log",
     "Header": "45 6C 66 46 69 6C 65 00",
-    "Hex": "0x456C6646696C6500",
+    "Hex": "0x456c6646696c6500",
     "File extension": "EVTX",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1956,7 +1956,7 @@
   {
     "File description": "MS Fax Cover Sheet",
     "Header": "46 41 58 43 4F 56 45 52",
-    "Hex": "0x464158434F564552",
+    "Hex": "0x464158434f564552",
     "File extension": "CPE",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -1974,7 +1974,7 @@
   {
     "File description": "NTFS MFT (FILE)",
     "Header": "46 49 4C 45",
-    "Hex": "0x46494C45",
+    "Hex": "0x46494c45",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -1983,7 +1983,7 @@
   {
     "File description": "Flash video file",
     "Header": "46 4C 56",
-    "Hex": "0x464C56",
+    "Hex": "0x464c56",
     "File extension": "FLV",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -1992,7 +1992,7 @@
   {
     "File description": "IFF ANIM file",
     "Header": "46 4F 52 4D",
-    "Hex": "0x464F524D",
+    "Hex": "0x464f524d",
     "File extension": "ANM",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2001,7 +2001,7 @@
   {
     "File description": "EA Interchange Format File (IFF)_1",
     "Header": "46 4F 52 4D",
-    "Hex": "0x464F524D",
+    "Hex": "0x464f524d",
     "File extension": "IFF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2010,7 +2010,7 @@
   {
     "File description": "Audio Interchange File",
     "Header": "46 4F 52 4D 00",
-    "Hex": "0x464F524D00",
+    "Hex": "0x464f524d00",
     "File extension": "AIFF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2019,7 +2019,7 @@
   {
     "File description": "DAKX Compressed Audio",
     "Header": "46 4F 52 4D 00",
-    "Hex": "0x464F524D00",
+    "Hex": "0x464f524d00",
     "File extension": "DAX",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2037,7 +2037,7 @@
   {
     "File description": "Generic e-mail_2",
     "Header": "46 72 6F 6D",
-    "Hex": "0x46726F6D",
+    "Hex": "0x46726f6d",
     "File extension": "EML",
     "FileClass": "Email",
     "Header offset": "0",
@@ -2082,7 +2082,7 @@
   {
     "File description": "Genetec video archive",
     "Header": "47 65 6E 65 74 65 63 20 4F 6D 6E 69 63 61 73 74",
-    "Hex": "0x47656E65746563204F6D6E6963617374",
+    "Hex": "0x47656e65746563204f6d6e6963617374",
     "File extension": "G64",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2091,7 +2091,7 @@
   {
     "File description": "SAP PowerBuilder integrated development environment file",
     "Header": "48 44 52 2A 50 6F 77 65 72 42 75 69 6C 64 65 72",
-    "Hex": "0x4844522A506F7765724275696C646572",
+    "Hex": "0x4844522a506f7765724275696c646572",
     "File extension": "PBD",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2100,7 +2100,7 @@
   {
     "File description": "SAS Transport dataset",
     "Header": "48 45 41 44 45 52 20 52 45 43 4F 52 44 2A 2A 2A",
-    "Hex": "0x484541444552205245434F52442A2A2A",
+    "Hex": "0x484541444552205245434f52442a2a2a",
     "File extension": "XPT",
     "FileClass": "Statistics",
     "Header offset": "0",
@@ -2145,7 +2145,7 @@
   {
     "File description": "Canon RAW file",
     "Header": "49 49 1A 00 00 00 48 45",
-    "Hex": "0x49491A0000004845",
+    "Hex": "0x49491a0000004845",
     "File extension": "CRW",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2154,7 +2154,7 @@
   {
     "File description": "TIFF file_2",
     "Header": "49 49 2A 00",
-    "Hex": "0x49492A00",
+    "Hex": "0x49492a00",
     "File extension": "TIF|TIFF",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2163,7 +2163,7 @@
   {
     "File description": "Windows 7 thumbnail_2",
     "Header": "49 4D 4D 4D 15 00 00 00",
-    "Hex": "0x494D4D4D15000000",
+    "Hex": "0x494d4d4d15000000",
     "File extension": "DB",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2181,7 +2181,7 @@
   {
     "File description": "MS Reader eBook",
     "Header": "49 54 4F 4C 49 54 4C 53",
-    "Hex": "0x49544F4C49544C53",
+    "Hex": "0x49544f4c49544c53",
     "File extension": "LIT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2199,7 +2199,7 @@
   {
     "File description": "Inno Setup Uninstall Log",
     "Header": "49 6E 6E 6F 20 53 65 74",
-    "Hex": "0x496E6E6F20536574",
+    "Hex": "0x496e6e6f20536574",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2208,7 +2208,7 @@
   {
     "File description": "Inter@ctive Pager Backup (BlackBerry file",
     "Header": " 49 6E 74 65 72 40 63 74 69 76 65 20 50 61 67 65",
-    "Hex": "0x496E7465724063746976652050616765",
+    "Hex": "0x496e7465724063746976652050616765",
     "File extension": "IPD",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -2217,7 +2217,7 @@
   {
     "File description": "JARCS compressed archive",
     "Header": "4A 41 52 43 53 00",
-    "Hex": "0x4A4152435300",
+    "Hex": "0x4a4152435300",
     "File extension": "JAR",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2226,7 +2226,7 @@
   {
     "File description": "AOL ART file_1",
     "Header": "4A 47 03 0E",
-    "Hex": "0x4A47030E",
+    "Hex": "0x4a47030e",
     "File extension": "JG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2235,7 +2235,7 @@
   {
     "File description": "AOL ART file_2",
     "Header": "4A 47 04 0E",
-    "Hex": "0x4A47040E",
+    "Hex": "0x4a47040e",
     "File extension": "JG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2244,7 +2244,7 @@
   {
     "File description": "VMware 4 Virtual Disk",
     "Header": "4B 44 4D",
-    "Hex": "0x4B444D",
+    "Hex": "0x4b444d",
     "File extension": "VMDK",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2253,7 +2253,7 @@
   {
     "File description": "KGB archive",
     "Header": "4B 47 42 5F 61 72 63 68",
-    "Hex": "0x4B47425F61726368",
+    "Hex": "0x4b47425f61726368",
     "File extension": "KGB",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2262,7 +2262,7 @@
   {
     "File description": "Win9x printer spool file",
     "Header": "4B 49 00 00",
-    "Hex": "0x4B490000",
+    "Hex": "0x4b490000",
     "File extension": "SHD",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2271,7 +2271,7 @@
   {
     "File description": "KWAJ (compressed) file",
     "Header": "4B 57 41 4A 88 F0 27 D1",
-    "Hex": "0x4B57414A88F027D1",
+    "Hex": "0x4b57414a88f027d1",
     "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2280,7 +2280,7 @@
   {
     "File description": "Windows shortcut file",
     "Header": "4C 00 00 00 01 14 02 00",
-    "Hex": "0x4C00000001140200",
+    "Hex": "0x4c00000001140200",
     "File extension": "LNK",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2289,7 +2289,7 @@
   {
     "File description": "MS COFF relocatable object code",
     "Header": "4C 01",
-    "Hex": "0x4C01",
+    "Hex": "0x4c01",
     "File extension": "OBJ",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2298,7 +2298,7 @@
   {
     "File description": "Tajima emboridery",
     "Header": "4C 41 3A",
-    "Hex": "0x4C413A",
+    "Hex": "0x4c413a",
     "File extension": "DST",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2307,7 +2307,7 @@
   {
     "File description": "Windows help file_3",
     "Header": "4C 4E 02 00",
-    "Hex": "0x4C4E0200",
+    "Hex": "0x4c4e0200",
     "File extension": "GID|HLP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2316,7 +2316,7 @@
   {
     "File description": "EA Interchange Format File (IFF)_2",
     "Header": "4C 49 53 54",
-    "Hex": "0x4C495354",
+    "Hex": "0x4c495354",
     "File extension": "IFF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2325,7 +2325,7 @@
   {
     "File description": "DeluxePaint Animation",
     "Header": "4C 50 46 20 00 01",
-    "Hex": "0x4C5046200001",
+    "Hex": "0x4c5046200001",
     "File extension": "ANM",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2334,7 +2334,7 @@
   {
     "File description": "Logical File Evidence Format",
     "Header": "4C 56 46 09 0D 0A FF 00",
-    "Hex": "0x4C5646090D0AFF00",
+    "Hex": "0x4c5646090d0aff00",
     "File extension": "E01",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2343,7 +2343,7 @@
   {
     "File description": "Merriam-Webster Pocket Dictionary",
     "Header": "4D 2D 57 20 50 6F 63 6B",
-    "Hex": "0x4D2D5720506F636B",
+    "Hex": "0x4d2d5720506f636b",
     "File extension": "PDB",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2352,7 +2352,7 @@
   {
     "File description": "Mozilla archive",
     "Header": "4D 41 52 31 00",
-    "Hex": "0x4D41523100",
+    "Hex": "0x4d41523100",
     "File extension": "MAR",
     "FileClass": "Network",
     "Header offset": "0",
@@ -2361,7 +2361,7 @@
   {
     "File description": "Microsoft-MSN MARC archive",
     "Header": "4D 41 52 43",
-    "Hex": "0x4D415243",
+    "Hex": "0x4d415243",
     "File extension": "MAR",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2370,7 +2370,7 @@
   {
     "File description": "MATLAB v5 workspace",
     "Header": "4D 41 54 4C 41 42 20 35 2E 30 20 4D 41 54 2D 66 69 6C 65",
-    "Hex": "0x4D41544C414220352E30204D41542D66696C65",
+    "Hex": "0x4d41544c414220352e30204d41542d66696c65",
     "File extension": "MAT",
     "FileClass": "Programming",
     "Header offset": "0(null)",
@@ -2379,7 +2379,7 @@
   {
     "File description": "MAr compressed archive",
     "Header": "4D 41 72 30 00",
-    "Hex": "0x4D41723000",
+    "Hex": "0x4d41723000",
     "File extension": "MAR",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2388,7 +2388,7 @@
   {
     "File description": "TargetExpress target file",
     "Header": "4D 43 57 20 54 65 63 68 6E 6F 67 6F 6C 69 65 73",
-    "Hex": "0x4D435720546563686E6F676F6C696573",
+    "Hex": "0x4d435720546563686e6f676f6c696573",
     "File extension": "MTE",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2397,7 +2397,7 @@
   {
     "File description": "Windows dump file",
     "Header": "4D 44 4D 50 93 A7",
-    "Hex": "0x4D444D5093A7",
+    "Hex": "0x4d444d5093a7",
     "File extension": "DMP|HDMP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2406,7 +2406,7 @@
   {
     "File description": "Milestones project management file",
     "Header": "4D 49 4C 45 53",
-    "Hex": "0x4D494C4553",
+    "Hex": "0x4d494c4553",
     "File extension": "MLS",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2415,7 +2415,7 @@
   {
     "File description": "Skype localization data file",
     "Header": "4D 4C 53 57",
-    "Hex": "0x4D4C5357",
+    "Hex": "0x4d4c5357",
     "File extension": "MLS",
     "FileClass": "Network",
     "Header offset": "0",
@@ -2424,7 +2424,7 @@
   {
     "File description": "TIFF file_3",
     "Header": "4D 4D 00 2A",
-    "Hex": "0x4D4D002A",
+    "Hex": "0x4d4d002a",
     "File extension": "TIF|TIFF",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2433,7 +2433,7 @@
   {
     "File description": "TIFF file_4",
     "Header": "4D 4D 00 2B",
-    "Hex": "0x4D4D002B",
+    "Hex": "0x4d4d002b",
     "File extension": "TIF|TIFF",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2442,7 +2442,7 @@
   {
     "File description": "Yamaha Synthetic music Mobile Application Format",
     "Header": "4D 4D 4D 44 00 00",
-    "Hex": "0x4D4D4D440000",
+    "Hex": "0x4d4d4d440000",
     "File extension": "MMF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2451,7 +2451,7 @@
   {
     "File description": "VMware BIOS state file",
     "Header": "4D 52 56 4E",
-    "Hex": "0x4D52564E",
+    "Hex": "0x4d52564e",
     "File extension": "NVRAM",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2460,7 +2460,7 @@
   {
     "File description": "Microsoft cabinet file",
     "Header": "4D 53 43 46",
-    "Hex": "0x4D534346",
+    "Hex": "0x4d534346",
     "File extension": "CAB",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2469,7 +2469,7 @@
   {
     "File description": "OneNote Package",
     "Header": "4D 53 43 46",
-    "Hex": "0x4D534346",
+    "Hex": "0x4d534346",
     "File extension": "ONEPKG",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2478,7 +2478,7 @@
   {
     "File description": "Powerpoint Packaged Presentation",
     "Header": "4D 53 43 46",
-    "Hex": "0x4D534346",
+    "Hex": "0x4d534346",
     "File extension": "PPZ",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -2487,7 +2487,7 @@
   {
     "File description": "MS Access Snapshot Viewer file",
     "Header": "4D 53 43 46",
-    "Hex": "0x4D534346",
+    "Hex": "0x4d534346",
     "File extension": "SNP",
     "FileClass": "Database",
     "Header offset": "0",
@@ -2496,7 +2496,7 @@
   {
     "File description": "OLE-SPSS-Visual C++ library file",
     "Header": "4D 53 46 54 02 00 01 00",
-    "Hex": "0x4D53465402000100",
+    "Hex": "0x4d53465402000100",
     "File extension": "TLB",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2505,7 +2505,7 @@
   {
     "File description": "Health Level-7 data (pipe delimited) file",
     "Header": "D 53 48 7C 5E 7E 5C 26 7C",
-    "Hex": "0xD53487C5E7E5C267C",
+    "Hex": "0xd53487c5e7e5c267c",
     "File extension": "HL7",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2514,7 +2514,7 @@
   {
     "File description": "Microsoft Windows Imaging Format",
     "Header": "4D 53 57 49 4D",
-    "Hex": "0x4D5357494D",
+    "Hex": "0x4d5357494d",
     "File extension": "WIM",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2523,7 +2523,7 @@
   {
     "File description": "Sony Compressed Voice File",
     "Header": "4D 53 5F 56 4F 49 43 45",
-    "Hex": "0x4D535F564F494345",
+    "Hex": "0x4d535f564f494345",
     "File extension": "CDR|DVF|MSV",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2532,7 +2532,7 @@
   {
     "File description": "MIDI sound file",
     "Header": "4D 54 68 64",
-    "Hex": "0x4D546864",
+    "Hex": "0x4d546864",
     "File extension": "MID|MIDI",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2541,7 +2541,7 @@
   {
     "File description": "Yamaha Piano",
     "Header": "4D 54 68 64",
-    "Hex": "0x4D546864",
+    "Hex": "0x4d546864",
     "File extension": "PCS",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2550,7 +2550,7 @@
   {
     "File description": "CD Stomper Pro label file",
     "Header": "4D 56",
-    "Hex": "0x4D56",
+    "Hex": "0x4d56",
     "File extension": "DSN",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2559,7 +2559,7 @@
   {
     "File description": "Milestones project management file_1",
     "Header": "4D 56 32 31 34",
-    "Hex": "0x4D56323134",
+    "Hex": "0x4d56323134",
     "File extension": "MLS",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2568,7 +2568,7 @@
   {
     "File description": "Milestones project management file_2",
     "Header": "4D 56 32 43",
-    "Hex": "0x4D563243",
+    "Hex": "0x4d563243",
     "File extension": "MLS",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2577,7 +2577,7 @@
   {
     "File description": "Windows-DOS executable file",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "COM|DLL|DRV|EXE|PIF|QTS|QTX|SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2586,7 +2586,7 @@
   {
     "File description": "MS audio compression manager driver",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "ACM",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2595,7 +2595,7 @@
   {
     "File description": "Library cache file",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "AX",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2604,7 +2604,7 @@
   {
     "File description": "Control panel application",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "CPL",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2613,7 +2613,7 @@
   {
     "File description": "Font file",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "FON",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2622,7 +2622,7 @@
   {
     "File description": "ActiveX-OLE Custom Control",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "OCX",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2631,7 +2631,7 @@
   {
     "File description": "OLE object library",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "OLB",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2640,7 +2640,7 @@
   {
     "File description": "Screen saver",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "SCR",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2649,7 +2649,7 @@
   {
     "File description": "VisualBASIC application",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "VBX",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2658,7 +2658,7 @@
   {
     "File description": "Windows virtual device drivers",
     "Header": "4D 5A",
-    "Hex": "0x4D5A",
+    "Hex": "0x4d5a",
     "File extension": "VXD|386",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2667,7 +2667,7 @@
   {
     "File description": "Acrobat plug-in",
     "Header": "4D 5A 90 00 03 00 00 00",
-    "Hex": "0x4D5A900003000000",
+    "Hex": "0x4d5a900003000000",
     "File extension": "API",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2676,7 +2676,7 @@
   {
     "File description": "DirectShow filter",
     "Header": "4D 5A 90 00 03 00 00 00",
-    "Hex": "0x4D5A900003000000",
+    "Hex": "0x4d5a900003000000",
     "File extension": "AX",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2685,7 +2685,7 @@
   {
     "File description": "Audition graphic filter",
     "Header": "4D 5A 90 00 03 00 00 00",
-    "Hex": "0x4D5A900003000000",
+    "Hex": "0x4d5a900003000000",
     "File extension": "FLT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2694,7 +2694,7 @@
   {
     "File description": "ZoneAlam data file",
     "Header": "4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF",
-    "Hex": "0x4D5A90000300000004000000FFFF",
+    "Hex": "0x4d5a90000300000004000000ffff",
     "File extension": "ZAP",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2703,7 +2703,7 @@
   {
     "File description": "MS C++ debugging symbols file",
     "Header": "4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20",
-    "Hex": "0x4D6963726F736F667420432F432B2B20",
+    "Hex": "0x4d6963726f736f667420432f432b2b20",
     "File extension": "PDB",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2712,7 +2712,7 @@
   {
     "File description": "Visual Studio .NET file",
     "Header": "4D 69 63 72 6F 73 6F 66 74 20 56 69 73 75 61 6C",
-    "Hex": "0x4D6963726F736F66742056697375616C",
+    "Hex": "0x4d6963726f736f66742056697375616c",
     "File extension": "SLN",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2721,7 +2721,7 @@
   {
     "File description": "Windows Media Player playlist",
     "Header": "4D 69 63 72 6F 73 6F 66 74 20 57 69 6E 64 6F 77 73 20 4D 65 64 69 61 20 50 6C 61 79 65 72 20 2D 2D 20",
-    "Hex": "0x4D6963726F736F66742057696E646F7773204D6564696120506C61796572202D2D20",
+    "Hex": "0x4d6963726f736f66742057696e646f7773204d6564696120506c61796572202d2d20",
     "File extension": "WPL",
     "FileClass": "Multimedia",
     "Header offset": "84",
@@ -2730,7 +2730,7 @@
   {
     "File description": "VMapSource GPS Waypoint Database",
     "Header": "4D 73 52 63 66",
-    "Hex": "0x4D73526366",
+    "Hex": "0x4d73526366",
     "File extension": "GDB",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -2739,7 +2739,7 @@
   {
     "File description": "TomTom traffic data",
     "Header": "4E 41 56 54 52 41 46 46",
-    "Hex": "0x4E41565452414646",
+    "Hex": "0x4e41565452414646",
     "File extension": "DAT",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -2748,7 +2748,7 @@
   {
     "File description": "MS Windows journal",
     "Header": "4E 42 2A 00",
-    "Hex": "0x4E422A00",
+    "Hex": "0x4e422a00",
     "File extension": "JNT|JTP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -2757,7 +2757,7 @@
   {
     "File description": "NES Sound file",
     "Header": "4E 45 53 4D 1A 01",
-    "Hex": "0x4E45534D1A01",
+    "Hex": "0x4e45534d1a01",
     "File extension": "NSF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2766,7 +2766,7 @@
   {
     "File description": "National Imagery Transmission Format file",
     "Header": "4E 49 54 46 30",
-    "Hex": "0x4E49544630",
+    "Hex": "0x4e49544630",
     "File extension": "NTF",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2775,7 +2775,7 @@
   {
     "File description": "Agent newsreader character map",
     "Header": "4E 61 6D 65 3A 20",
-    "Hex": "0x4E616D653A20",
+    "Hex": "0x4e616d653a20",
     "File extension": "COD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -2784,7 +2784,7 @@
   {
     "File description": "1Password 4 Cloud Keychain",
     "Header": "4F 50 43 4C 44 41 54",
-    "Hex": "0x4F50434C444154",
+    "Hex": "0x4f50434c444154",
     "File extension": "attachment",
     "FileClass": "Encryption",
     "Header offset": "0",
@@ -2793,7 +2793,7 @@
   {
     "File description": "Psion Series 3 Database",
     "Header": "4F 50 4C 44 61 74 61 62",
-    "Hex": "0x4F504C4461746162",
+    "Hex": "0x4f504c4461746162",
     "File extension": "DBF",
     "FileClass": "Database",
     "Header offset": "0",
@@ -2802,7 +2802,7 @@
   {
     "File description": "OpenType font",
     "Header": "4F 54 54 4F 00",
-    "Hex": "0x4F54544F00",
+    "Hex": "0x4f54544f00",
     "File extension": "OTF",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2811,7 +2811,7 @@
   {
     "File description": "Ogg Vorbis Codec compressed file",
     "Header": "4F 67 67 53 00 02 00 00",
-    "Hex": "0x4F67675300020000",
+    "Hex": "0x4f67675300020000",
     "File extension": "OGA|OGG|OGV|OGX",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -2820,7 +2820,7 @@
   {
     "File description": "Visio-DisplayWrite 4 text file",
     "Header": "4F 7B",
-    "Hex": "0x4F7B",
+    "Hex": "0x4f7b",
     "File extension": "DW4",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -2838,7 +2838,7 @@
   {
     "File description": "Portable Graymap Graphic",
     "Header": "50 35 0A",
-    "Hex": "0x50350A",
+    "Hex": "0x50350a",
     "File extension": "PGM",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -2847,7 +2847,7 @@
   {
     "File description": "Quake archive file",
     "Header": "50 41 43 4B",
-    "Hex": "0x5041434B",
+    "Hex": "0x5041434b",
     "File extension": "PAK",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2883,7 +2883,7 @@
   {
     "File description": "PGP disk image",
     "Header": "50 47 50 64 4D 41 49 4E",
-    "Hex": "0x504750644D41494E",
+    "Hex": "0x504750644d41494e",
     "File extension": "PGD",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2901,7 +2901,7 @@
   {
     "File description": "PKZIP archive_1",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -2910,7 +2910,7 @@
   {
     "File description": "Android package",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "APK",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -2919,7 +2919,7 @@
   {
     "File description": "MacOS X Dashboard Widget",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "ZIP",
     "FileClass": "MacOS",
     "Header offset": "0",
@@ -2928,7 +2928,7 @@
   {
     "File description": "MS Office Open XML Format Document",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "DOCX|PPTX|XLSX",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2937,7 +2937,7 @@
   {
     "File description": "Java archive_1",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "JAR",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -2946,7 +2946,7 @@
   {
     "File description": "Google Earth session file",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "KMZ",
     "FileClass": "Navigation",
     "Header offset": "0",
@@ -2955,7 +2955,7 @@
   {
     "File description": "KWord document",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "KWD",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2964,7 +2964,7 @@
   {
     "File description": "OpenDocument template",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "ODT|ODP|OTT",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2973,7 +2973,7 @@
   {
     "File description": "Microsoft Open XML paper specification",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "OXPS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2982,7 +2982,7 @@
   {
     "File description": "OpenOffice documents",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "SXC|SXD|SXI|SXW",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -2991,7 +2991,7 @@
   {
     "File description": "StarOffice spreadsheet",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "SXC",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -3000,7 +3000,7 @@
   {
     "File description": "Windows Media compressed skin file",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "WMZ",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -3009,7 +3009,7 @@
   {
     "File description": "Mozilla Browser Archive",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "XPI",
     "FileClass": "Network",
     "Header offset": "0",
@@ -3018,7 +3018,7 @@
   {
     "File description": "XML paper specification file",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "XPS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -3027,7 +3027,7 @@
   {
     "File description": "eXact Packager Models",
     "Header": "50 4B 03 04",
-    "Hex": "0x504B0304",
+    "Hex": "0x504b0304",
     "File extension": "XPT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3036,7 +3036,7 @@
   {
     "File description": "Open Publication Structure eBook",
     "Header": "50 4B 03 04 0A 00 02 00",
-    "Hex": "0x504B03040A000200",
+    "Hex": "0x504b03040a000200",
     "File extension": "EPUB",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3045,7 +3045,7 @@
   {
     "File description": "ZLock Pro encrypted ZIP",
     "Header": "50 4B 03 04 14 00 01 00",
-    "Hex": "0x504B030414000100",
+    "Hex": "0x504b030414000100",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3054,7 +3054,7 @@
   {
     "File description": "MS Office 2007 documents",
     "Header": "50 4B 03 04 14 00 06 00",
-    "Hex": "0x504B030414000600",
+    "Hex": "0x504b030414000600",
     "File extension": "DOCX|PPTX|XLSX",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -3063,7 +3063,7 @@
   {
     "File description": "Java archive_2",
     "Header": "50 4B 03 04 14 00 08 00",
-    "Hex": "0x504B030414000800",
+    "Hex": "0x504b030414000800",
     "File extension": "JAR",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3072,7 +3072,7 @@
   {
     "File description": "PKZIP archive_2",
     "Header": "50 4B 05 06",
-    "Hex": "0x504B0506",
+    "Hex": "0x504b0506",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3081,7 +3081,7 @@
   {
     "File description": "PKZIP archive_3",
     "Header": "50 4B 07 08",
-    "Hex": "0x504B0708",
+    "Hex": "0x504b0708",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3090,7 +3090,7 @@
   {
     "File description": "PKLITE archive",
     "Header": "50 4B 4C 49 54 45",
-    "Hex": "0x504B4C495445",
+    "Hex": "0x504b4c495445",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "30",
@@ -3099,7 +3099,7 @@
   {
     "File description": "PKSFX self-extracting archive",
     "Header": "50 4B 53 70 58",
-    "Hex": "0x504B537058",
+    "Hex": "0x504b537058",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "526",
@@ -3108,7 +3108,7 @@
   {
     "File description": "Windows Program Manager group file",
     "Header": "50 4D 43 43",
-    "Hex": "0x504D4343",
+    "Hex": "0x504d4343",
     "File extension": "GRP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -3117,7 +3117,7 @@
   {
     "File description": "Norton Disk Doctor undo file",
     "Header": "50 4E 43 49 55 4E 44 4F",
-    "Hex": "0x504E4349554E444F",
+    "Hex": "0x504e4349554e444f",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3126,7 +3126,7 @@
   {
     "File description": "Microsoft Windows User State Migration Tool",
     "Header": "50 4D 4F 43 43 4D 4F 43",
-    "Hex": "0x504D4F43434D4F43",
+    "Hex": "0x504d4f43434d4f43",
     "File extension": "PMOCCMOC",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -3162,7 +3162,7 @@
   {
     "File description": "Quicken data",
     "Header": "51 45 4C 20",
-    "Hex": "0x51454C20",
+    "Hex": "0x51454c20",
     "File extension": "QEL",
     "FileClass": "Finance",
     "Header offset": "92",
@@ -3180,7 +3180,7 @@
   {
     "File description": "RIFF Qualcomm PureVoice",
     "Header": "51 4C 43 4D 66 6D 74 20",
-    "Hex": "0x514C434D666D7420",
+    "Hex": "0x514c434d666d7420",
     "File extension": "QCP",
     "FileClass": "Multimedia",
     "Header offset": "8",
@@ -3189,7 +3189,7 @@
   {
     "File description": "Quicken data file",
     "Header": "51 57 20 56 65 72 2E 20",
-    "Hex": "0x5157205665722E20",
+    "Hex": "0x5157205665722e20",
     "File extension": "ABD|QSD",
     "FileClass": "Finance",
     "Header offset": "0",
@@ -3198,7 +3198,7 @@
   {
     "File description": "Outlook-Exchange message subheader",
     "Header": "52 00 6F 00 6F 00 74 00 20 00 45 00 6E 00 74 00 72 00 79 00",
-    "Hex": "0x52006F006F007400200045006E00740072007900",
+    "Hex": "0x52006f006f007400200045006e00740072007900",
     "File extension": "MSG",
     "FileClass": "Email",
     "Header offset": "512",
@@ -3207,7 +3207,7 @@
   {
     "File description": "Shareaza (P2P) thumbnail",
     "Header": "52 41 5A 41 54 44 42 31",
-    "Hex": "0x52415A4154444231",
+    "Hex": "0x52415a4154444231",
     "File extension": "DAT",
     "FileClass": "Network",
     "Header offset": "0",
@@ -3216,7 +3216,7 @@
   {
     "File description": "R saved work space",
     "Header": "52 44 58 32 0A",
-    "Hex": "0x524458320A",
+    "Hex": "0x524458320a",
     "File extension": "RDATA",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3234,7 +3234,7 @@
   {
     "File description": "Antenna data file",
     "Header": "52 45 56 4E 55 4D 3A 2C",
-    "Hex": "0x5245564E554D3A2C",
+    "Hex": "0x5245564e554d3a2c",
     "File extension": "AD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3306,7 +3306,7 @@
   {
     "File description": "RIFF Windows MIDI",
     "Header": "52 4D 49 44 64 61 74 61",
-    "Hex": "0x524D494464617461",
+    "Hex": "0x524d494464617461",
     "File extension": "RMI",
     "FileClass": "Multimedia",
     "Header offset": "8",
@@ -3324,7 +3324,7 @@
   {
     "File description": "WinRAR compressed archive",
     "Header": "52 61 72 21 1A 07 00",
-    "Hex": "0x526172211A0700",
+    "Hex": "0x526172211a0700",
     "File extension": "RAR",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3333,7 +3333,7 @@
   {
     "File description": "Generic e-mail_1",
     "Header": "52 65 74 75 72 6E 2D 50",
-    "Hex": "0x52657475726E2D50",
+    "Hex": "0x52657475726e2d50",
     "File extension": "EML",
     "FileClass": "Email",
     "Header offset": "0",
@@ -3351,7 +3351,7 @@
   {
     "File description": "Underground Audio",
     "Header": "53 43 48 6C",
-    "Hex": "0x5343486C",
+    "Hex": "0x5343486c",
     "File extension": "AST",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3360,7 +3360,7 @@
   {
     "File description": "Img Software Bitmap",
     "Header": "53 43 4D 49",
-    "Hex": "0x53434D49",
+    "Hex": "0x53434d49",
     "File extension": "IMG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -3378,7 +3378,7 @@
   {
     "File description": "Harvard Graphics presentation",
     "Header": "53 48 4F 57",
-    "Hex": "0x53484F57",
+    "Hex": "0x53484f57",
     "File extension": "SHW",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -3387,7 +3387,7 @@
   {
     "File description": "Sietronics CPI XRD document",
     "Header": "53 49 45 54 52 4F 4E 49",
-    "Hex": "0x53494554524F4E49",
+    "Hex": "0x53494554524f4e49",
     "File extension": "CPI",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3396,7 +3396,7 @@
   {
     "File description": "Flexible Image Transport System (FITS) file",
     "Header": "53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54",
-    "Hex": "0x53494D504C4520203D202020202020202020202020202020202020202054",
+    "Hex": "0x53494d504c4520203d202020202020202020202020202020202020202054",
     "File extension": "FITS",
     "FileClass": "multimedia",
     "Header offset": "0",
@@ -3414,7 +3414,7 @@
   {
     "File description": "SmartDraw Drawing file",
     "Header": "53 4D 41 52 54 44 52 57",
-    "Hex": "0x534D415254445257",
+    "Hex": "0x534d415254445257",
     "File extension": "SDR",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -3441,7 +3441,7 @@
   {
     "File description": "SQLite database file",
     "Header": "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00",
-    "Hex": "0x53514C69746520666F726D6174203300",
+    "Hex": "0x53514c69746520666f726d6174203300",
     "File extension": "DB",
     "FileClass": "Database",
     "Header offset": "0",
@@ -3450,7 +3450,7 @@
   {
     "File description": "DB2 conversion file",
     "Header": "53 51 4C 4F 43 4F 4E 56",
-    "Hex": "0x53514C4F434F4E56",
+    "Hex": "0x53514c4f434f4e56",
     "File extension": "CNV",
     "FileClass": "Database",
     "Header offset": "0",
@@ -3459,7 +3459,7 @@
   {
     "File description": "QBASIC SZDD file",
     "Header": "53 5A 20 88 F0 27 33 D1",
-    "Hex": "0x535A2088F02733D1",
+    "Hex": "0x535a2088f02733d1",
     "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3468,7 +3468,7 @@
   {
     "File description": "SZDD file format",
     "Header": "53 5A 44 44 88 F0 27 33",
-    "Hex": "0x535A444488F02733",
+    "Hex": "0x535a444488f02733",
     "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3486,7 +3486,7 @@
   {
     "File description": "SuperCalc worksheet",
     "Header": "53 75 70 65 72 43 61 6C",
-    "Hex": "0x537570657243616C",
+    "Hex": "0x537570657243616c",
     "File extension": "CAL",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -3522,7 +3522,7 @@
   {
     "File description": "UFA compressed archive",
     "Header": "55 46 41 C6 D2 C1",
-    "Hex": "0x554641C6D2C1",
+    "Hex": "0x554641c6d2c1",
     "File extension": "UFA",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3531,7 +3531,7 @@
   {
     "File description": "UFO Capture map file",
     "Header": "55 46 4F 4F 72 62 69 74",
-    "Hex": "0x55464F4F72626974",
+    "Hex": "0x55464f4f72626974",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3549,7 +3549,7 @@
   {
     "File description": "Visual Basic User-defined Control file",
     "Header": "56 45 52 53 49 4F 4E 20",
-    "Hex": "0x56455253494F4E20",
+    "Hex": "0x56455253494f4e20",
     "File extension": "CTL",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3558,7 +3558,7 @@
   {
     "File description": "MapInfo Interchange Format file",
     "Header": "56 65 72 73 69 6F 6E 20",
-    "Hex": "0x56657273696F6E20",
+    "Hex": "0x56657273696f6e20",
     "File extension": "MIF",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3567,7 +3567,7 @@
   {
     "File description": "SPSS template",
     "Header": "57 04 00 00 53 50 53 53 20 74 65 6D 70 6C 61 74",
-    "Hex": "0x57040000535053532074656D706C6174",
+    "Hex": "0x57040000535053532074656d706c6174",
     "File extension": "SCT",
     "FileClass": "Statistics",
     "Header offset": "0",
@@ -3576,7 +3576,7 @@
   {
     "File description": "RIFF Windows Audio",
     "Header": "57 41 56 45 66 6D 74 20",
-    "Hex": "0x57415645666D7420",
+    "Hex": "0x57415645666d7420",
     "File extension": "WAV",
     "FileClass": "Multimedia",
     "Header offset": "8",
@@ -3594,7 +3594,7 @@
   {
     "File description": "Walkman MP3 file",
     "Header": "57 4D 4D 50",
-    "Hex": "0x574D4D50",
+    "Hex": "0x574d4d50",
     "File extension": "DAT",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3612,7 +3612,7 @@
   {
     "File description": "WinZip compressed archive",
     "Header": "57 69 6E 5A 69 70",
-    "Hex": "0x57696E5A6970",
+    "Hex": "0x57696e5a6970",
     "File extension": "ZIP",
     "FileClass": "Compressed archive",
     "Header offset": "29152",
@@ -3621,7 +3621,7 @@
   {
     "File description": "Lotus WordPro file",
     "Header": "57 6F 72 64 50 72 6F",
-    "Hex": "0x576F726450726F",
+    "Hex": "0x576f726450726f",
     "File extension": "LWP",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -3630,7 +3630,7 @@
   {
     "File description": "Exchange e-mail",
     "Header": "58 2D",
-    "Hex": "0x582D",
+    "Hex": "0x582d",
     "File extension": "EML",
     "FileClass": "Email",
     "Header offset": "0",
@@ -3648,7 +3648,7 @@
   {
     "File description": "XPCOM libraries",
     "Header": "58 50 43 4F 4D 0A 54 79",
-    "Hex": "0x5850434F4D0A5479",
+    "Hex": "0x5850434f4d0a5479",
     "File extension": "XPT",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3675,7 +3675,7 @@
   {
     "File description": "ZOO compressed archive",
     "Header": "5A 4F 4F 20",
-    "Hex": "0x5A4F4F20",
+    "Hex": "0x5a4f4f20",
     "File extension": "ZOO",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3684,7 +3684,7 @@
   {
     "File description": "Macromedia Shockwave Flash",
     "Header": "5A 57 53",
-    "Hex": "0x5A5753",
+    "Hex": "0x5a5753",
     "File extension": "SWF",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3693,7 +3693,7 @@
   {
     "File description": "MS Exchange configuration file",
     "Header": "5B 47 65 6E 65 72 61 6C",
-    "Hex": "0x5B47656E6572616C",
+    "Hex": "0x5b47656e6572616c",
     "File extension": "ECF",
     "FileClass": "Email",
     "Header offset": "0",
@@ -3702,7 +3702,7 @@
   {
     "File description": "Visual C++ Workbench Info File",
     "Header": "5B 4D 53 56 43",
-    "Hex": "0x5B4D535643",
+    "Hex": "0x5b4d535643",
     "File extension": "VCW",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3711,7 +3711,7 @@
   {
     "File description": "Dial-up networking file",
     "Header": "5B 50 68 6F 6E 65 5D",
-    "Hex": "0x5B50686F6E655D",
+    "Hex": "0x5b50686f6e655d",
     "File extension": "DUN",
     "FileClass": "Network",
     "Header offset": "0",
@@ -3720,7 +3720,7 @@
   {
     "File description": "Lotus AMI Pro document_1",
     "Header": "5B 56 45 52 5D",
-    "Hex": "0x5B5645525D",
+    "Hex": "0x5b5645525d",
     "File extension": "SAM",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -3729,7 +3729,7 @@
   {
     "File description": "VocalTec VoIP media file",
     "Header": "5B 56 4D 44 5D",
-    "Hex": "0x5B564D445D",
+    "Hex": "0x5b564d445d",
     "File extension": "VMD",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3738,7 +3738,7 @@
   {
     "File description": "Microsoft Code Page Translation file",
     "Header": "5B 57 69 6E 64 6F 77 73",
-    "Hex": "0x5B57696E646F7773",
+    "Hex": "0x5b57696e646f7773",
     "File extension": "CPX",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -3747,7 +3747,7 @@
   {
     "File description": "Flight Simulator Aircraft Configuration",
     "Header": "5B 66 6C 74 73 69 6D 2E",
-    "Hex": "0x5B666C7473696D2E",
+    "Hex": "0x5b666c7473696d2e",
     "File extension": "CFG",
     "FileClass": "Games",
     "Header offset": "0",
@@ -3756,7 +3756,7 @@
   {
     "File description": "WinAmp Playlist",
     "Header": "5B 70 6C 61 79 6C 69 73 74 5D",
-    "Hex": "0x5B706C61796C6973745D",
+    "Hex": "0x5b706c61796c6973745d",
     "File extension": "PLS",
     "FileClass": "Audio",
     "Header offset": "0",
@@ -3765,7 +3765,7 @@
   {
     "File description": "Lotus AMI Pro document_2",
     "Header": "5B 76 65 72 5D",
-    "Hex": "0x5B7665725D",
+    "Hex": "0x5b7665725d",
     "File extension": "SAM",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -3774,7 +3774,7 @@
   {
     "File description": "Husqvarna Designer",
     "Header": "5D FC C8 00",
-    "Hex": "0x5DFCC800",
+    "Hex": "0x5dfcc800",
     "File extension": "HUS",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3783,7 +3783,7 @@
   {
     "File description": "Jar archive",
     "Header": "5F 27 A8 89",
-    "Hex": "0x5F27A889",
+    "Hex": "0x5f27a889",
     "File extension": "JAR",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3792,7 +3792,7 @@
   {
     "File description": "EnCase case file",
     "Header": "5F 43 41 53 45 5F",
-    "Hex": "0x5F434153455F",
+    "Hex": "0x5f434153455f",
     "File extension": "CAS|CBK",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3801,7 +3801,7 @@
   {
     "File description": "Compressed archive file",
     "Header": "60 EA",
-    "Hex": "0x60EA",
+    "Hex": "0x60ea",
     "File extension": "ARJ",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3810,7 +3810,7 @@
   {
     "File description": "UUencoded file",
     "Header": "62 65 67 69 6E",
-    "Hex": "0x626567696E",
+    "Hex": "0x626567696e",
     "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3819,7 +3819,7 @@
   {
     "File description": "UUencoded BASE64 file",
     "Header": "62 65 67 69 6E 2D 62 61 73 65 36 34",
-    "Hex": "0x626567696E2D626173653634",
+    "Hex": "0x626567696e2d626173653634",
     "File extension": "b64",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3828,7 +3828,7 @@
   {
     "File description": "Binary property list (plist)",
     "Header": "62 70 6C 69 73 74",
-    "Hex": "0x62706C697374",
+    "Hex": "0x62706c697374",
     "File extension": "(none)",
     "FileClass": "System",
     "Header offset": "0",
@@ -3846,7 +3846,7 @@
   {
     "File description": "Macintosh encrypted Disk image (v1)",
     "Header": "63 64 73 61 65 6E 63 72",
-    "Hex": "0x63647361656E6372",
+    "Hex": "0x63647361656e6372",
     "File extension": "DMG",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3855,7 +3855,7 @@
   {
     "File description": "Virtual PC HD image",
     "Header": "63 6F 6E 65 63 74 69 78",
-    "Hex": "0x636F6E6563746978",
+    "Hex": "0x636f6e6563746978",
     "File extension": "VHD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -3882,7 +3882,7 @@
   {
     "File description": "Torrent file",
     "Header": "64 38 3A 61 6E 6E 6F 75 6E 63 65",
-    "Hex": "0x64383A616E6E6F756E6365",
+    "Hex": "0x64383a616e6e6f756e6365",
     "File extension": "TORRENT",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3891,7 +3891,7 @@
   {
     "File description": "Dalvik (Android) executable file",
     "Header": "64 65 78 0A",
-    "Hex": "0x6465780A",
+    "Hex": "0x6465780a",
     "File extension": "dex",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -3900,7 +3900,7 @@
   {
     "File description": "Audacity audio file",
     "Header": "64 6E 73 2E",
-    "Hex": "0x646E732E",
+    "Hex": "0x646e732e",
     "File extension": "AU",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3909,7 +3909,7 @@
   {
     "File description": "MS Visual Studio workspace file",
     "Header": "64 73 77 66 69 6C 65",
-    "Hex": "0x64737766696C65",
+    "Hex": "0x64737766696c65",
     "File extension": "DSW",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -3918,7 +3918,7 @@
   {
     "File description": "Macintosh encrypted Disk image (v2)",
     "Header": "65 6E 63 72 63 64 73 61",
-    "Hex": "0x656E637263647361",
+    "Hex": "0x656e637263647361",
     "File extension": "DMG",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -3936,7 +3936,7 @@
   {
     "File description": "Free Lossless Audio Codec file",
     "Header": "66 4C 61 43 00 00 00 22",
-    "Hex": "0x664C614300000022",
+    "Hex": "0x664c614300000022",
     "File extension": "FLAC",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -3954,7 +3954,7 @@
   {
     "File description": "Apple Lossless Audio Codec file",
     "Header": "66 74 79 70 4D 34 41 20",
-    "Hex": "0x667479704D344120",
+    "Hex": "0x667479704d344120",
     "File extension": "M4A",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -3963,7 +3963,7 @@
   {
     "File description": "ISO Media-MPEG v4-iTunes AVC-LC",
     "Header": "66 74 79 70 4D 34 56 20",
-    "Hex": "0x667479704D345620",
+    "Hex": "0x667479704d345620",
     "File extension": "FLV|M4V",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -3972,7 +3972,7 @@
   {
     "File description": "MPEG-4 video file_2",
     "Header": "66 74 79 70 4D 53 4E 56",
-    "Hex": "0x667479704D534E56",
+    "Hex": "0x667479704d534e56",
     "File extension": "MP4",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -3981,7 +3981,7 @@
   {
     "File description": "ISO Base Media file (MPEG-4) v1",
     "Header": "66 74 79 70 69 73 6F 6D",
-    "Hex": "0x6674797069736F6D",
+    "Hex": "0x6674797069736f6d",
     "File extension": "MP4",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -3990,7 +3990,7 @@
   {
     "File description": "MPEG-4 video-QuickTime file",
     "Header": "66 74 79 70 6D 70 34 32",
-    "Hex": "0x667479706D703432",
+    "Hex": "0x667479706d703432",
     "File extension": "M4V",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -4035,7 +4035,7 @@
   {
     "File description": "MacOS icon file",
     "Header": "69 63 6E 73",
-    "Hex": "0x69636E73",
+    "Hex": "0x69636e73",
     "File extension": "ICNS",
     "FileClass": "System",
     "Header offset": "0",
@@ -4044,7 +4044,7 @@
   {
     "File description": "Skype user data file",
     "Header": "6C 33 33 6C",
-    "Hex": "0x6C33336C",
+    "Hex": "0x6c33336c",
     "File extension": "DBB",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4053,7 +4053,7 @@
   {
     "File description": "QuickTime movie_1",
     "Header": "6D 6F 6F 76",
-    "Hex": "0x6D6F6F76",
+    "Hex": "0x6d6f6f76",
     "File extension": "MOV",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -4071,7 +4071,7 @@
   {
     "File description": "QuickTime movie_3",
     "Header": "6D 64 61 74",
-    "Hex": "0x6D646174",
+    "Hex": "0x6d646174",
     "File extension": "MOV",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -4089,7 +4089,7 @@
   {
     "File description": "QuickTime movie_5",
     "Header": "70 6E 6F 74",
-    "Hex": "0x706E6F74",
+    "Hex": "0x706e6f74",
     "File extension": "MOV",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -4098,7 +4098,7 @@
   {
     "File description": "QuickTime movie_6",
     "Header": "73 6B 69 70",
-    "Hex": "0x736B6970",
+    "Hex": "0x736b6970",
     "File extension": "MOV",
     "FileClass": "Multimedia",
     "Header offset": "4",
@@ -4107,7 +4107,7 @@
   {
     "File description": "Internet Explorer v11 Tracking Protection List",
     "Header": "6D 73 46 69 6C 74 65 72 4C 69 73 74",
-    "Hex": "0x6D7346696C7465724C697374",
+    "Hex": "0x6d7346696c7465724c697374",
     "File extension": "TPL",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4116,7 +4116,7 @@
   {
     "File description": "MultiBit Bitcoin wallet information",
     "Header": "6D 75 6C 74 69 42 69 74 2E 69 6E 66 6F",
-    "Hex": "0x6D756C74694269742E696E666F",
+    "Hex": "0x6d756c74694269742e696e666f",
     "File extension": "INFO",
     "FileClass": "E-money",
     "Header offset": "0",
@@ -4125,7 +4125,7 @@
   {
     "File description": "SMS text (SIM)",
     "Header": "6F 3C",
-    "Hex": "0x6F3C",
+    "Hex": "0x6f3c",
     "File extension": "(none)",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -4134,7 +4134,7 @@
   {
     "File description": "1Password 4 Cloud Keychain encrypted data",
     "Header": "6F 70 64 61 74 61 30 31",
-    "Hex": "0x6F70646174613031",
+    "Hex": "0x6f70646174613031",
     "File extension": "(none)",
     "FileClass": "Encryption",
     "Header offset": "0",
@@ -4161,7 +4161,7 @@
   {
     "File description": "RealMedia metafile",
     "Header": "72 74 73 70 3A 2F 2F",
-    "Hex": "0x727473703A2F2F",
+    "Hex": "0x727473703a2f2f",
     "File extension": "RAM",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -4170,7 +4170,7 @@
   {
     "File description": "Allegro Generic Packfile (compressed)",
     "Header": "73 6C 68 21",
-    "Hex": "0x736C6821",
+    "Hex": "0x736c6821",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4179,7 +4179,7 @@
   {
     "File description": "Allegro Generic Packfile (uncompressed)",
     "Header": "73 6C 68 2E",
-    "Hex": "0x736C682E",
+    "Hex": "0x736c682e",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4188,7 +4188,7 @@
   {
     "File description": "PalmOS SuperMemo",
     "Header": "73 6D 5F",
-    "Hex": "0x736D5F",
+    "Hex": "0x736d5f",
     "File extension": "PDB",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -4197,7 +4197,7 @@
   {
     "File description": "STL (STereoLithography) file",
     "Header": "73 6F 6C 69 64",
-    "Hex": "0x736F6C6964",
+    "Hex": "0x736f6c6964",
     "File extension": "STL",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -4206,7 +4206,7 @@
   {
     "File description": "CALS raster bitmap",
     "Header": "73 72 63 64 6F 63 69 64",
-    "Hex": "0x737263646F636964",
+    "Hex": "0x737263646f636964",
     "File extension": "CAL",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4215,7 +4215,7 @@
   {
     "File description": "PowerBASIC Debugger Symbols",
     "Header": "73 7A 65 7A",
-    "Hex": "0x737A657A",
+    "Hex": "0x737a657a",
     "File extension": "PDB",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4224,7 +4224,7 @@
   {
     "File description": "PathWay Map file",
     "Header": "74 42 4D 50 4B 6E 57 72",
-    "Hex": "0x74424D504B6E5772",
+    "Hex": "0x74424d504b6e5772",
     "File extension": "PRC",
     "FileClass": "Mobile",
     "Header offset": "60",
@@ -4251,7 +4251,7 @@
   {
     "File description": "OpenEXR bitmap image",
     "Header": "76 2F 31 01",
-    "Hex": "0x762F3101",
+    "Hex": "0x762f3101",
     "File extension": "EXR",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4260,7 +4260,7 @@
   {
     "File description": "Qimage filter",
     "Header": "76 32 30 30 33 2E 31 30",
-    "Hex": "0x76323030332E3130",
+    "Hex": "0x76323030332e3130",
     "File extension": "FLT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4269,7 +4269,7 @@
   {
     "File description": "MacOS X image file",
     "Header": "78 01 73 0D 62 62 60",
-    "Hex": "0x7801730D626260",
+    "Hex": "0x7801730d626260",
     "File extension": "DMG",
     "FileClass": "MacOS",
     "Header offset": "0",
@@ -4287,7 +4287,7 @@
   {
     "File description": "ZoomBrowser Image Index",
     "Header": "7A 62 65 78",
-    "Hex": "0x7A626578",
+    "Hex": "0x7a626578",
     "File extension": "INFO",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4296,7 +4296,7 @@
   {
     "File description": "Windows application log",
     "Header": "7B 0D 0A 6F 20",
-    "Hex": "0x7B0D0A6F20",
+    "Hex": "0x7b0d0a6f20",
     "File extension": "LGC|LGD",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4305,7 +4305,7 @@
   {
     "File description": "Google Drive Drawing link",
     "Header": "7B 22 75 72 6C 22 3A 20 22 68 74 74 70 73 3A 2F",
-    "Hex": "0x7B2275726C223A202268747470733A2F",
+    "Hex": "0x7b2275726c223a202268747470733a2f",
     "File extension": "GDRAW",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4314,7 +4314,7 @@
   {
     "File description": "MS WinMobile personal note",
     "Header": "7B 5C 70 77 69",
-    "Hex": "0x7B5C707769",
+    "Hex": "0x7b5c707769",
     "File extension": "PWI",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -4323,7 +4323,7 @@
   {
     "File description": "Rich Text Format",
     "Header": "7B 5C 72 74 66 31",
-    "Hex": "0x7B5C72746631",
+    "Hex": "0x7b5c72746631",
     "File extension": "RTF",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4332,7 +4332,7 @@
   {
     "File description": "Huskygram Poem or Singer embroidery",
     "Header": "7C 4B C3 74 E1 C8 53 A4 79 B9 01 1D FC 4F DD 13",
-    "Hex": "0x7C4BC374E1C853A479B9011DFC4FDD13",
+    "Hex": "0x7c4bc374e1c853a479b9011dfc4fdd13",
     "File extension": "CSD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4341,7 +4341,7 @@
   {
     "File description": "Corel Paint Shop Pro image",
     "Header": "7E 42 4B 00",
-    "Hex": "0x7E424B00",
+    "Hex": "0x7e424b00",
     "File extension": "PSP",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -4350,7 +4350,7 @@
   {
     "File description": "Easy Street Draw diagram file",
     "Header": "7E 45 53 44 77 F6 85 3E BF 6A D2 11 45 61 73 79 20 53 74 72 65 65 74 20 44 72 61 77",
-    "Hex": "0x7E45534477F6853EBF6AD21145617379205374726565742044726177",
+    "Hex": "0x7e45534477f6853ebf6ad21145617379205374726565742044726177",
     "File extension": "ESD",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -4359,7 +4359,7 @@
   {
     "File description": "Digital Watchdog DW-TP-500G audio",
     "Header": "7E 74 2C 01 50 70 02 4D 52",
-    "Hex": "0x7E742C015070024D52",
+    "Hex": "0x7e742c015070024d52",
     "File extension": "IMG",
     "FileClass": "Audio",
     "Header offset": "0",
@@ -4368,7 +4368,7 @@
   {
     "File description": "ELF executable",
     "Header": "7F 45 4C 46",
-    "Hex": "0x7F454C46",
+    "Hex": "0x7f454c46",
     "File extension": "(none)",
     "FileClass": "Linux-Unix",
     "Header offset": "0",
@@ -4395,7 +4395,7 @@
   {
     "File description": "Kodak Cineon image",
     "Header": "80 2A 5F D7",
-    "Hex": "0x802A5FD7",
+    "Hex": "0x802a5fd7",
     "File extension": "CIN",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4404,7 +4404,7 @@
   {
     "File description": "Outlook Express address book (Win95)",
     "Header": "81 32 84 C1 85 05 D0 11",
-    "Hex": "0x813284C18505D011",
+    "Hex": "0x813284c18505d011",
     "File extension": "WAB",
     "FileClass": "Email",
     "Header offset": "0",
@@ -4413,7 +4413,7 @@
   {
     "File description": "WordPerfect text",
     "Header": "81 CD AB",
-    "Hex": "0x81CDAB",
+    "Hex": "0x81cdab",
     "File extension": "WPF",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4422,7 +4422,7 @@
   {
     "File description": "PNG image",
     "Header": "89 50 4E 47 0D 0A 1A 0A",
-    "Hex": "0x89504E470D0A1A0A",
+    "Hex": "0x89504e470d0a1a0a",
     "File extension": "PNG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4431,7 +4431,7 @@
   {
     "File description": "MS Answer Wizard",
     "Header": "8A 01 09 00 00 00 E1 08",
-    "Hex": "0x8A0109000000E108",
+    "Hex": "0x8a0109000000e108",
     "File extension": "AW",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4467,7 +4467,7 @@
   {
     "File description": "JBOG2 image file",
     "Header": "97 4A 42 32 0D 0A 1A 0A",
-    "Hex": "0x974A42320D0A1A0A",
+    "Hex": "0x974a42320d0a1a0a",
     "File extension": "JB2",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4494,7 +4494,7 @@
   {
     "File description": "Outlook address file",
     "Header": "9C CB CB 8D 13 75 D2 11",
-    "Hex": "0x9CCBCB8D1375D211",
+    "Hex": "0x9ccbcb8d1375d211",
     "File extension": "WAB",
     "FileClass": "Email",
     "Header offset": "0",
@@ -4503,7 +4503,7 @@
   {
     "File description": "tcpdump (libpcap) capture file",
     "Header": "A1 B2 C3 D4",
-    "Hex": "0xA1B2C3D4",
+    "Hex": "0xa1b2c3d4",
     "File extension": "(none)",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4512,7 +4512,7 @@
   {
     "File description": "Extended tcpdump (libpcap) capture file",
     "Header": "A1 B2 CD 34",
-    "Hex": "0xA1B2CD34",
+    "Hex": "0xa1b2cd34",
     "File extension": "(none)",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4521,7 +4521,7 @@
   {
     "File description": "Access Data FTK evidence",
     "Header": "A9 0D 00 00 00 00 00 00",
-    "Hex": "0xA90D000000000000",
+    "Hex": "0xa90d000000000000",
     "File extension": "DAT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4530,7 +4530,7 @@
   {
     "File description": "Khronos texture file",
     "Header": "AB 4B 54 58 20 31 31 BB 0D 0A 1A 0A",
-    "Hex": "0xAB4B5458203131BB0D0A1A0A",
+    "Hex": "0xab4b5458203131bb0d0a1a0a",
     "File extension": "KTX",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -4539,7 +4539,7 @@
   {
     "File description": "Quicken data",
     "Header": "AC 9E BD 8F 00 00",
-    "Hex": "0xAC9EBD8F0000",
+    "Hex": "0xac9ebd8f0000",
     "File extension": "QDF",
     "FileClass": "Finance",
     "Header offset": "0",
@@ -4548,7 +4548,7 @@
   {
     "File description": "PowerPoint presentation subheader_3",
     "Header": "A0 46 1D F0",
-    "Hex": "0xA0461DF0",
+    "Hex": "0xa0461df0",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -4557,7 +4557,7 @@
   {
     "File description": "Java serialization data",
     "Header": "AC ED",
-    "Hex": "0xACED",
+    "Hex": "0xaced",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4566,7 +4566,7 @@
   {
     "File description": "BGBlitz position database file",
     "Header": "AC ED 00 05 73 72 00 12",
-    "Hex": "0xACED000573720012",
+    "Hex": "0xaced000573720012",
     "File extension": "PDB",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4575,7 +4575,7 @@
   {
     "File description": "Win95 password file",
     "Header": "B0 4D 46 43",
-    "Hex": "0xB04D4643",
+    "Hex": "0xb04d4643",
     "File extension": "PWL",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4584,7 +4584,7 @@
   {
     "File description": "PCX bitmap",
     "Header": "B1 68 DE 3A",
-    "Hex": "0xB168DE3A",
+    "Hex": "0xb168de3a",
     "File extension": "DCX",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -4593,7 +4593,7 @@
   {
     "File description": "Acronis True Image_1",
     "Header": "B4 6E 68 44",
-    "Hex": "0xB46E6844",
+    "Hex": "0xb46e6844",
     "File extension": "TIB",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4602,7 +4602,7 @@
   {
     "File description": "Windows calendar",
     "Header": "B5 A2 B0 B3 B3 B0 A5 B5",
-    "Hex": "0xB5A2B0B3B3B0A5B5",
+    "Hex": "0xb5a2b0b3b3b0a5b5",
     "File extension": "CAL",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4611,7 +4611,7 @@
   {
     "File description": "InstallShield Script",
     "Header": "B8 C9 0C 00",
-    "Hex": "0xB8C90C00",
+    "Hex": "0xb8c90c00",
     "File extension": "INS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4620,7 +4620,7 @@
   {
     "File description": "MS Write file_3",
     "Header": "BE 00 00 00 AB",
-    "Hex": "0xBE000000AB",
+    "Hex": "0xbe000000ab",
     "File extension": "WRI",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4629,7 +4629,7 @@
   {
     "File description": "Palm Desktop DateBook",
     "Header": "BE BA FE CA 0F 50 61 6C 6D 53 47 20 44 61 74 61",
-    "Hex": "0xBEBAFECA0F50616C6D53472044617461",
+    "Hex": "0xbebafeca0f50616c6d53472044617461",
     "File extension": "DAT",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -4638,7 +4638,7 @@
   {
     "File description": "MS Agent Character file",
     "Header": "C3 AB CD AB",
-    "Hex": "0xC3ABCDAB",
+    "Hex": "0xc3abcdab",
     "File extension": "ACS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4647,7 +4647,7 @@
   {
     "File description": "Adobe encapsulated PostScript",
     "Header": "C5 D0 D3 C6",
-    "Hex": "0xC5D0D3C6",
+    "Hex": "0xc5d0d3c6",
     "File extension": "EPS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4656,7 +4656,7 @@
   {
     "File description": "Jeppesen FliteLog file",
     "Header": "C8 00 79 00",
-    "Hex": "0xC8007900",
+    "Hex": "0xc8007900",
     "File extension": "LBK",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4665,7 +4665,7 @@
   {
     "File description": "Java bytecode",
     "Header": "CA FE BA BE",
-    "Hex": "0xCAFEBABE",
+    "Hex": "0xcafebabe",
     "File extension": "CLASS",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4674,7 +4674,7 @@
   {
     "File description": "Nokia phone backup file",
     "Header": "CC 52 33 FC E9 2C 18 48 AF E3 36 30 1A 39 40 06",
-    "Hex": "0xCC5233FCE92C1848AFE336301A394006",
+    "Hex": "0xcc5233fce92c1848afe336301a394006",
     "File extension": "NBU",
     "FileClass": "Mobile",
     "Header offset": "0",
@@ -4683,7 +4683,7 @@
   {
     "File description": "NAV quarantined virus file",
     "Header": "CD 20 AA AA 02 00 00 00",
-    "Hex": "0xCD20AAAA02000000",
+    "Hex": "0xcd20aaaa02000000",
     "File extension": "(none)",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4692,7 +4692,7 @@
   {
     "File description": "Acronis True Image_2",
     "Header": "CE 24 B9 A2 20 00 00 00",
-    "Hex": "0xCE24B9A220000000",
+    "Hex": "0xce24b9a220000000",
     "File extension": "TIB",
     "FileClass": "Multimedia",
     "Header offset": "0",
@@ -4701,7 +4701,7 @@
   {
     "File description": "Java Cryptography Extension keystore",
     "Header": "CE CE CE CE",
-    "Hex": "0xCECECECE",
+    "Hex": "0xcececece",
     "File extension": "JCEKS",
     "FileClass": "Encryption",
     "Header offset": "0",
@@ -4710,7 +4710,7 @@
   {
     "File description": "OS X ABI Mach-O binary (32-bit reverse)",
     "Header": "CE FA ED FE",
-    "Hex": "0xCEFAEDFE",
+    "Hex": "0xcefaedfe",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4719,7 +4719,7 @@
   {
     "File description": "Perfect Office document",
     "Header": "CF 11 E0 A1 B1 1A E1 00",
-    "Hex": "0xCF11E0A1B11AE100",
+    "Hex": "0xcf11e0a1b11ae100",
     "File extension": "DOC",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4728,7 +4728,7 @@
   {
     "File description": "Outlook Express e-mail folder",
     "Header": "CF AD 12 FE",
-    "Hex": "0xCFAD12FE",
+    "Hex": "0xcfad12fe",
     "File extension": "DBX",
     "FileClass": "Email",
     "Header offset": "0",
@@ -4737,7 +4737,7 @@
   {
     "File description": "OS X ABI Mach-O binary (64-bit reverse)",
     "Header": "CF FA ED FE",
-    "Hex": "0xCFFAEDFE",
+    "Hex": "0xcffaedfe",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4746,7 +4746,7 @@
   {
     "File description": "Microsoft Office document",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "DOC|DOT|PPS|PPT|XLA|XLS|WIZ",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4755,7 +4755,7 @@
   {
     "File description": "CaseWare Working Papers",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "AC_",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4764,7 +4764,7 @@
   {
     "File description": "Access project file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "ADP",
     "FileClass": "Database",
     "Header offset": "0",
@@ -4773,7 +4773,7 @@
   {
     "File description": "Lotus-IBM Approach 97 file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "APR",
     "FileClass": "Database",
     "Header offset": "0",
@@ -4782,7 +4782,7 @@
   {
     "File description": "MSWorks database file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "DB",
     "FileClass": "Database",
     "Header offset": "0",
@@ -4791,7 +4791,7 @@
   {
     "File description": "Microsoft Common Console Document",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "MSC",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4800,7 +4800,7 @@
   {
     "File description": "Microsoft Installer package",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "MSI",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4809,7 +4809,7 @@
   {
     "File description": "Microsoft Installer Patch",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "MSP",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4818,7 +4818,7 @@
   {
     "File description": "Minitab data file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "MTW",
     "FileClass": "Statistics",
     "Header offset": "0",
@@ -4827,7 +4827,7 @@
   {
     "File description": "ArcMap GIS project file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "MXD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4836,7 +4836,7 @@
   {
     "File description": "Developer Studio File Options file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "OPT",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4845,7 +4845,7 @@
   {
     "File description": "MS Publisher file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "PUB",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4854,7 +4854,7 @@
   {
     "File description": "Revit Project file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "RVT",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4863,7 +4863,7 @@
   {
     "File description": "Visual Studio Solution User Options file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "SOU",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -4872,7 +4872,7 @@
   {
     "File description": "SPSS output file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "SPO",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4881,7 +4881,7 @@
   {
     "File description": "Visio file",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "VSD",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4890,7 +4890,7 @@
   {
     "File description": "MSWorks text document",
     "Header": "D0 CF 11 E0 A1 B1 1A E1",
-    "Hex": "0xD0CF11E0A1B11AE1",
+    "Hex": "0xd0cf11e0a1b11ae1",
     "File extension": "WPS",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -4899,7 +4899,7 @@
   {
     "File description": "WinPharoah filter file",
     "Header": "D2 0A 00 00",
-    "Hex": "0xD20A0000",
+    "Hex": "0xd20a0000",
     "File extension": "FTR",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4908,7 +4908,7 @@
   {
     "File description": "AOL history|typed URL files",
     "Header": "D4 2A",
-    "Hex": "0xD42A",
+    "Hex": "0xd42a",
     "File extension": "ARL|AUT",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4917,7 +4917,7 @@
   {
     "File description": "WinDump (winpcap) capture file",
     "Header": "D4 C3 B2 A1",
-    "Hex": "0xD4C3B2A1",
+    "Hex": "0xd4c3b2a1",
     "File extension": "(none)",
     "FileClass": "Network",
     "Header offset": "0",
@@ -4926,7 +4926,7 @@
   {
     "File description": "Windows graphics metafile",
     "Header": "D7 CD C6 9A",
-    "Hex": "0xD7CDC69A",
+    "Hex": "0xd7cdc69a",
     "File extension": "WMF",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4935,7 +4935,7 @@
   {
     "File description": "Word 2.0 file",
     "Header": "DB A5 2D 00",
-    "Hex": "0xDBA52D00",
+    "Hex": "0xdba52d00",
     "File extension": "DOC",
     "FileClass": "Word processing",
     "Header offset": "0",
@@ -4944,7 +4944,7 @@
   {
     "File description": "Corel color palette",
     "Header": "DC DC",
-    "Hex": "0xDCDC",
+    "Hex": "0xdcdc",
     "File extension": "CPL",
     "FileClass": "Presentation",
     "Header offset": "0",
@@ -4953,7 +4953,7 @@
   {
     "File description": "eFax file",
     "Header": "DC FE",
-    "Hex": "0xDCFE",
+    "Hex": "0xdcfe",
     "File extension": "EFX",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4962,7 +4962,7 @@
   {
     "File description": "Amiga icon",
     "Header": "E3 10 00 01 00 00 00 00",
-    "Hex": "0xE310000100000000",
+    "Hex": "0xe310000100000000",
     "File extension": "INFO",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4971,7 +4971,7 @@
   {
     "File description": "Win98 password file",
     "Header": "E3 82 85 96",
-    "Hex": "0xE3828596",
+    "Hex": "0xe3828596",
     "File extension": "PWL",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4980,7 +4980,7 @@
   {
     "File description": "MS OneNote note",
     "Header": "E4 52 5C 7B 8C D8 A7 4D",
-    "Hex": "0xE4525C7B8CD8A74D",
+    "Hex": "0xe4525c7b8cd8a74d",
     "File extension": "ONE",
     "FileClass": "Miscellaneous",
     "Header offset": "0",
@@ -4989,7 +4989,7 @@
   {
     "File description": "Windows executable file_1",
     "Header": "E8",
-    "Hex": "0xE8",
+    "Hex": "0xe8",
     "File extension": "COM|SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -4998,7 +4998,7 @@
   {
     "File description": "Windows executable file_2",
     "Header": "E9",
-    "Hex": "0xE9",
+    "Hex": "0xe9",
     "File extension": "COM|SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5007,7 +5007,7 @@
   {
     "File description": "Windows executable file_3",
     "Header": "EB",
-    "Hex": "0xEB",
+    "Hex": "0xeb",
     "File extension": "COM|SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5016,7 +5016,7 @@
   {
     "File description": "GEM Raster file",
     "Header": "EB 3C 90 2A",
-    "Hex": "0xEB3C902A",
+    "Hex": "0xeb3c902a",
     "File extension": "IMG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -5025,7 +5025,7 @@
   {
     "File description": "BitLocker boot sector (Vista)",
     "Header": "EB 52 90 2D 46 56 45 2D",
-    "Hex": "0xEB52902D4656452D",
+    "Hex": "0xeb52902d4656452d",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5034,7 +5034,7 @@
   {
     "File description": "BitLocker boot sector (Win7)",
     "Header": "EB 58 90 2D 46 56 45 2D",
-    "Hex": "0xEB58902D4656452D",
+    "Hex": "0xeb58902d4656452d",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5043,7 +5043,7 @@
   {
     "File description": "Word document subheader",
     "Header": "EC A5 C1 00",
-    "Hex": "0xECA5C100",
+    "Hex": "0xeca5c100",
     "File extension": "DOC",
     "FileClass": "Word processing suite",
     "Header offset": "512",
@@ -5052,7 +5052,7 @@
   {
     "File description": "RedHat Package Manager",
     "Header": "ED AB EE DB",
-    "Hex": "0xEDABEEDB",
+    "Hex": "0xedabeedb",
     "File extension": "RPM",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -5061,7 +5061,7 @@
   {
     "File description": "UTF-8 file",
     "Header": "EF BB BF",
-    "Hex": "0xEFBBBF",
+    "Hex": "0xefbbbf",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5070,7 +5070,7 @@
   {
     "File description": "Windows Script Component (UTF-8)_1",
     "Header": "EF BB BF 3C",
-    "Hex": "0xEFBBBF3C",
+    "Hex": "0xefbbbf3c",
     "File extension": "WSF",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5079,7 +5079,7 @@
   {
     "File description": "Windows Script Component (UTF-8)_2",
     "Header": "EF BB BF 3C 3F",
-    "Hex": "0xEFBBBF3C3F",
+    "Hex": "0xefbbbf3c3f",
     "File extension": "WSC",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5088,7 +5088,7 @@
   {
     "File description": "YouTube Timed Text (subtitle) file",
     "Header": "EF BB BF 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E",
-    "Hex": "0xEFBBBF3C3F786D6C2076657273696F6E",
+    "Hex": "0xefbbbf3c3f786d6c2076657273696f6e",
     "File extension": "YTT",
     "FileClass": "Video",
     "Header offset": "0",
@@ -5097,7 +5097,7 @@
   {
     "File description": "FAT12 File Allocation Table",
     "Header": "F0 FF FF",
-    "Hex": "0xF0FFFF",
+    "Hex": "0xf0ffff",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5106,7 +5106,7 @@
   {
     "File description": "FAT16 File Allocation Table",
     "Header": "F8 FF FF FF",
-    "Hex": "0xF8FFFFFF",
+    "Hex": "0xf8ffffff",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5115,7 +5115,7 @@
   {
     "File description": "FAT32 File Allocation Table_1",
     "Header": "F8 FF FF 0F FF FF FF 0F",
-    "Hex": "0xF8FFFF0FFFFFFF0F",
+    "Hex": "0xf8ffff0fffffff0f",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5124,7 +5124,7 @@
   {
     "File description": "FAT32 File Allocation Table_2",
     "Header": "F8 FF FF 0F FF FF FF FF",
-    "Hex": "0xF8FFFF0FFFFFFFFF",
+    "Hex": "0xf8ffff0fffffffff",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5133,7 +5133,7 @@
   {
     "File description": "Bitcoin-Qt blockchain block file",
     "Header": "F9 BE B4 D9",
-    "Hex": "0xF9BEB4D9",
+    "Hex": "0xf9beb4d9",
     "File extension": "DAT",
     "FileClass": "E-money",
     "Header offset": "0",
@@ -5142,7 +5142,7 @@
   {
     "File description": "XZ archive",
     "Header": "FD 37 7A 58 5A 00",
-    "Hex": "0xFD377A585A00",
+    "Hex": "0xfd377a585a00",
     "File extension": "XZ",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -5151,7 +5151,7 @@
   {
     "File description": "MS Publisher subheader",
     "Header": "FD 37 7A 58 5A 00",
-    "Hex": "0xFD377A585A00",
+    "Hex": "0xfd377a585a00",
     "File extension": "PUB",
     "FileClass": "Word processing",
     "Header offset": "512",
@@ -5160,7 +5160,7 @@
   {
     "File description": "Thumbs.db subheader",
     "Header": "FD FF FF FF",
-    "Hex": "0xFDFFFFFF",
+    "Hex": "0xfdffffff",
     "File extension": "DB",
     "FileClass": "Windows",
     "Header offset": "512",
@@ -5169,7 +5169,7 @@
   {
     "File description": "MS Publisher file subheader",
     "Header": "FD FF FF FF 02",
-    "Hex": "0xFDFFFFFF02",
+    "Hex": "0xfdffffff02",
     "File extension": "PUB",
     "FileClass": "Word processing suite",
     "Header offset": "512",
@@ -5178,7 +5178,7 @@
   {
     "File description": "Visual Studio Solution subheader",
     "Header": "FD FF FF FF 04",
-    "Hex": "0xFDFFFFFF04",
+    "Hex": "0xfdffffff04",
     "File extension": "SUO",
     "FileClass": "Programming",
     "Header offset": "512",
@@ -5187,7 +5187,7 @@
   {
     "File description": "PowerPoint presentation subheader_4",
     "Header": "FD FF FF FF 0E 00 00 00",
-    "Hex": "0xFDFFFFFF0E000000",
+    "Hex": "0xfdffffff0e000000",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -5196,7 +5196,7 @@
   {
     "File description": "Excel spreadsheet subheader_2",
     "Header": "FD FF FF FF 10",
-    "Hex": "0xFDFFFFFF10",
+    "Hex": "0xfdffffff10",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5205,7 +5205,7 @@
   {
     "File description": "PowerPoint presentation subheader_5",
     "Header": "FD FF FF FF 1C 00 00 00",
-    "Hex": "0xFDFFFFFF1C000000",
+    "Hex": "0xfdffffff1c000000",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -5214,7 +5214,7 @@
   {
     "File description": "Excel spreadsheet subheader_3",
     "Header": "FD FF FF FF 1F",
-    "Hex": "0xFDFFFFFF1F",
+    "Hex": "0xfdffffff1f",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5223,7 +5223,7 @@
   {
     "File description": "Developer Studio subheader",
     "Header": "FD FF FF FF 20",
-    "Hex": "0xFDFFFFFF20",
+    "Hex": "0xfdffffff20",
     "File extension": "OPT",
     "FileClass": "Programming",
     "Header offset": "512",
@@ -5232,7 +5232,7 @@
   {
     "File description": "Excel spreadsheet subheader_4",
     "Header": "FD FF FF FF 22",
-    "Hex": "0xFDFFFFFF22",
+    "Hex": "0xfdffffff22",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5241,7 +5241,7 @@
   {
     "File description": "Excel spreadsheet subheader_5",
     "Header": "FD FF FF FF 23",
-    "Hex": "0xFDFFFFFF23",
+    "Hex": "0xfdffffff23",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5250,7 +5250,7 @@
   {
     "File description": "Excel spreadsheet subheader_6",
     "Header": "FD FF FF FF 28",
-    "Hex": "0xFDFFFFFF28",
+    "Hex": "0xfdffffff28",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5259,7 +5259,7 @@
   {
     "File description": "Excel spreadsheet subheader_7",
     "Header": "FD FF FF FF 29",
-    "Hex": "0xFDFFFFFF29",
+    "Hex": "0xfdffffff29",
     "File extension": "XLS",
     "FileClass": "Spreadsheet",
     "Header offset": "512",
@@ -5268,7 +5268,7 @@
   {
     "File description": "PowerPoint presentation subheader_6",
     "Header": "FD FF FF FF 43 00 00 00",
-    "Hex": "0xFDFFFFFF43000000",
+    "Hex": "0xfdffffff43000000",
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
@@ -5277,7 +5277,7 @@
   {
     "File description": "OS X ABI Mach-O binary (32-bit)",
     "Header": "FE ED FA CE",
-    "Hex": "0xFEEDFACE",
+    "Hex": "0xfeedface",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -5286,7 +5286,7 @@
   {
     "File description": "OS X ABI Mach-O binary (64-bit)",
     "Header": "FE ED FA CF",
-    "Hex": "0xFEEDFACF",
+    "Hex": "0xfeedfacf",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -5295,7 +5295,7 @@
   {
     "File description": "JavaKeyStore",
     "Header": "FE ED FE ED",
-    "Hex": "0xFEEDFEED",
+    "Hex": "0xfeedfeed",
     "File extension": "(none)",
     "FileClass": "Programming",
     "Header offset": "0",
@@ -5304,7 +5304,7 @@
   {
     "File description": "Symantex Ghost image file",
     "Header": "FE EF",
-    "Hex": "0xFEEF",
+    "Hex": "0xfeef",
     "File extension": "GHO|GHS",
     "FileClass": "Compressed archive",
     "Header offset": "0",
@@ -5313,7 +5313,7 @@
   {
     "File description": "UTF-16-UCS-2 file",
     "Header": "FE FF",
-    "Hex": "0xFEFF",
+    "Hex": "0xfeff",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5322,7 +5322,7 @@
   {
     "File description": "Windows executable",
     "Header": "FF",
-    "Hex": "0xFF",
+    "Hex": "0xff",
     "File extension": "SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5331,7 +5331,7 @@
   {
     "File description": "Works for Windows spreadsheet",
     "Header": "FF 00 02 00 04 04 05 54",
-    "Hex": "0xFF00020004040554",
+    "Hex": "0xff00020004040554",
     "File extension": "WKS",
     "FileClass": "Spreadsheet",
     "Header offset": "0",
@@ -5340,7 +5340,7 @@
   {
     "File description": "QuickReport Report",
     "Header": "FF 0A 00",
-    "Hex": "0xFF0A00",
+    "Hex": "0xff0a00",
     "File extension": "QRP",
     "FileClass": "Financial",
     "Header offset": "0",
@@ -5349,7 +5349,7 @@
   {
     "File description": "Windows international code page",
     "Header": "FF 46 4F 4E 54",
-    "Hex": "0xFF464F4E54",
+    "Hex": "0xff464f4e54",
     "File extension": "CPI",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5358,7 +5358,7 @@
   {
     "File description": "Keyboard driver file",
     "Header": "FF 4B 45 59 42 20 20 20",
-    "Hex": "0xFF4B455942202020",
+    "Hex": "0xff4b455942202020",
     "File extension": "SYS",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5367,7 +5367,7 @@
   {
     "File description": "WordPerfect text and graphics",
     "Header": "FF 57 50 43",
-    "Hex": "0xFF575043",
+    "Hex": "0xff575043",
     "File extension": "WP|WPD|WPG|WPP|WP5|WP6",
     "FileClass": "Word processing suite",
     "Header offset": "0",
@@ -5376,7 +5376,7 @@
   {
     "File description": "Generic JPEGimage fil",
     "Header": "FF D8",
-    "Hex": "0xFFD8",
+    "Hex": "0xffd8",
     "File extension": "JPE|JPEG|JPG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -5385,7 +5385,7 @@
   {
     "File description": "JPEG-EXIF-SPIFF images",
     "Header": "FF D8 FF",
-    "Hex": "0xFFD8FF",
+    "Hex": "0xffd8ff",
     "File extension": "JFIF|JPE|JPEG|JPG",
     "FileClass": "Picture",
     "Header offset": "0",
@@ -5394,7 +5394,7 @@
   {
     "File description": "MPEG-4 AAC audio",
     "Header": "FF F1",
-    "Hex": "0xFFF1",
+    "Hex": "0xfff1",
     "File extension": "AAC",
     "FileClass": "Audio",
     "Header offset": "0",
@@ -5403,7 +5403,7 @@
   {
     "File description": "MPEG-2 AAC audio",
     "Header": "FF F9",
-    "Hex": "0xFFF9",
+    "Hex": "0xfff9",
     "File extension": "AAC",
     "FileClass": "Audio",
     "Header offset": "0",
@@ -5412,7 +5412,7 @@
   {
     "File description": "Windows Registry file",
     "Header": "FF FE",
-    "Hex": "0xFFFE",
+    "Hex": "0xfffe",
     "File extension": "REG",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5421,7 +5421,7 @@
   {
     "File description": "UTF-32-UCS-2 file",
     "Header": "FF FE",
-    "Hex": "0xFFFE",
+    "Hex": "0xfffe",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5430,7 +5430,7 @@
   {
     "File description": "UTF-32-UCS-4 file",
     "Header": "FF FE 00 00",
-    "Hex": "0xFFFE0000",
+    "Hex": "0xfffe0000",
     "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5439,7 +5439,7 @@
   {
     "File description": "MSinfo file",
     "Header": "FF FE 23 00 6C 00 69 00",
-    "Hex": "0xFFFE23006C006900",
+    "Hex": "0xfffe23006c006900",
     "File extension": "MOF",
     "FileClass": "Windows",
     "Header offset": "0",
@@ -5448,7 +5448,7 @@
   {
     "File description": "DOS system driver",
     "Header": "FF FF FF FF",
-    "Hex": "0xFFFFFFFF",
+    "Hex": "0xffffffff",
     "File extension": "SYS",
     "FileClass": "Windows",
     "Header offset": "0",
