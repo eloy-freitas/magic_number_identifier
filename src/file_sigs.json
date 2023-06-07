@@ -2179,15 +2179,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "MS COFF relocatable object code",
-    "Header": "4C 01",
-    "Hex": "0x4c01",
-    "File extension": "OBJ",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Tajima emboridery",
     "Header": "4C 41 3A",
     "Hex": "0x4c413a",
@@ -4195,15 +4186,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Relocatable object code",
-    "Header": "80",
-    "Hex": "0x80",
-    "File extension": "OBJ",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Dreamcast audio",
     "Header": "80 00 00 20 03 12 04",
     "Hex": "0x80000020031204",
@@ -4744,33 +4726,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Windows executable file_1",
-    "Header": "E8",
-    "Hex": "0xe8",
-    "File extension": "COM|SYS",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "Windows executable file_2",
-    "Header": "E9",
-    "Hex": "0xe9",
-    "File extension": "COM|SYS",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "Windows executable file_3",
-    "Header": "EB",
-    "Hex": "0xeb",
-    "File extension": "COM|SYS",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "GEM Raster file",
     "Header": "EB 3C 90 2A",
     "Hex": "0xeb3c902a",
@@ -4974,15 +4929,6 @@
     "Hex": "0xfeef",
     "File extension": "GHO|GHS",
     "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "Windows executable",
-    "Header": "FF",
-    "Hex": "0xff",
-    "File extension": "SYS",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
