@@ -154,15 +154,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Amiga Hunk executable",
-    "Header": "00 00 03 F3",
-    "Hex": "0x000003f3",
-    "File extension": "(none)",
-    "FileClass": "System",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Wii images container",
     "Header": "00 20 AF 30",
     "Hex": "0x0020af30",
@@ -298,29 +289,11 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Mbox table of contents file",
-    "Header": "00 0D BB A0",
-    "Hex": "0x000dbba0",
-    "File extension": "(none)",
-    "FileClass": "E-mail",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "FLIC animation",
     "Header": "00 11",
     "Hex": "0x0011",
     "File extension": "FLI",
     "FileClass": "Miscellaneous",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "BIOS details in RAM",
-    "Header": "00 14 00 00 01 02",
-    "Hex": "0x001400000102",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -474,24 +447,6 @@
     "Hex": "0x04",
     "File extension": "DB4",
     "FileClass": "Database",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "INFO2 Windows recycle bin_1",
-    "Header": "04 00 00 00",
-    "Hex": "0x04000000",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "INFO2 Windows recycle bin_2",
-    "Header": "05 00 00 00",
-    "Hex": "0x05000000",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -1144,15 +1099,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "cpio archive",
-    "Header": "30 37 30 37 30",
-    "Hex": "0x3037303730",
-    "File extension": "(none)",
-    "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "MS Write file_1",
     "Header": "31 BE",
     "Hex": "0x31be",
@@ -1180,28 +1126,10 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Tcpdump capture file",
-    "Header": "34 CD B2 A1",
-    "Hex": "0x34cdb2a1",
-    "File extension": "(none)",
-    "FileClass": "Network",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "7-Zip compressed file",
     "Header": "37 7A BC AF 27 1C",
     "Hex": "0x377abcaf271c",
     "File extension": "7Z",
-    "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "zisofs compressed file",
-    "Header": "37 E4 53 96 C9 DB D6 07",
-    "Hex": "0x37e45396c9dbd607",
-    "File extension": "(none)",
     "FileClass": "Compressed archive",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
@@ -1396,15 +1324,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "AOL parameter-info files",
-    "Header": "41 43 53 44",
-    "Hex": "0x41435344",
-    "File extension": "(none)",
-    "FileClass": "Network",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Harvard Graphics symbol graphic",
     "Header": "41 4D 59 4F",
     "Hex": "0x414d594f",
@@ -1500,15 +1419,6 @@
     "Hex": "0x41724301",
     "File extension": "ARC",
     "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "NTFS MFT (BAAD)",
-    "Header": "42 41 41 44",
-    "Hex": "0x42414144",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -1972,15 +1882,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "NTFS MFT (FILE)",
-    "Header": "46 49 4C 45",
-    "Hex": "0x46494c45",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Flash video file",
     "Header": "46 4C 56",
     "Hex": "0x464c56",
@@ -2265,15 +2166,6 @@
     "Hex": "0x4b490000",
     "File extension": "SHD",
     "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "KWAJ (compressed) file",
-    "Header": "4B 57 41 4A 88 F0 27 D1",
-    "Hex": "0x4b57414a88f027d1",
-    "File extension": "(none)",
-    "FileClass": "Compressed archive",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -3151,15 +3043,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "Parrot Video Encapsulation",
-    "Header": "50 61 56 45",
-    "Hex": "0x50615645",
-    "File extension": "(none)",
-    "FileClass": "Multimedia",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Quicken data",
     "Header": "51 45 4C 20",
     "Hex": "0x51454c20",
@@ -3453,24 +3336,6 @@
     "Hex": "0x53514c4f434f4e56",
     "File extension": "CNV",
     "FileClass": "Database",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "QBASIC SZDD file",
-    "Header": "53 5A 20 88 F0 27 33 D1",
-    "Hex": "0x535a2088f02733d1",
-    "File extension": "(none)",
-    "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "SZDD file format",
-    "Header": "53 5A 44 44 88 F0 27 33",
-    "Hex": "0x535a444488f02733",
-    "File extension": "(none)",
-    "FileClass": "Compressed archive",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -3808,15 +3673,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "UUencoded file",
-    "Header": "62 65 67 69 6E",
-    "Hex": "0x626567696e",
-    "File extension": "(none)",
-    "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "UUencoded BASE64 file",
     "Header": "62 65 67 69 6E 2D 62 61 73 65 36 34",
     "Hex": "0x626567696e2d626173653634",
@@ -3824,15 +3680,6 @@
     "FileClass": "Compressed archive",
     "Header offset": "0",
     "Trailer (hex)": "0A 3D 3D 3D 3D 0A"
-  },
-  {
-    "File description": "Binary property list (plist)",
-    "Header": "62 70 6C 69 73 74",
-    "Hex": "0x62706c697374",
-    "File extension": "(none)",
-    "FileClass": "System",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
   },
   {
     "File description": "Apple Core Audio File",
@@ -4123,24 +3970,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "SMS text (SIM)",
-    "Header": "6F 3C",
-    "Hex": "0x6f3c",
-    "File extension": "(none)",
-    "FileClass": "Mobile",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "1Password 4 Cloud Keychain encrypted data",
-    "Header": "6F 70 64 61 74 61 30 31",
-    "Hex": "0x6f70646174613031",
-    "File extension": "(none)",
-    "FileClass": "Encryption",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "WinNT registry file",
     "Header": "72 65 67 66",
     "Hex": "0x72656766",
@@ -4366,15 +4195,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "ELF executable",
-    "Header": "7F 45 4C 46",
-    "Hex": "0x7f454c46",
-    "File extension": "(none)",
-    "FileClass": "Linux-Unix",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Relocatable object code",
     "Header": "80",
     "Hex": "0x80",
@@ -4501,24 +4321,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "tcpdump (libpcap) capture file",
-    "Header": "A1 B2 C3 D4",
-    "Hex": "0xa1b2c3d4",
-    "File extension": "(none)",
-    "FileClass": "Network",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "Extended tcpdump (libpcap) capture file",
-    "Header": "A1 B2 CD 34",
-    "Hex": "0xa1b2cd34",
-    "File extension": "(none)",
-    "FileClass": "Network",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Access Data FTK evidence",
     "Header": "A9 0D 00 00 00 00 00 00",
     "Hex": "0xa90d000000000000",
@@ -4552,15 +4354,6 @@
     "File extension": "PPT",
     "FileClass": "Presentation",
     "Header offset": "512",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "Java serialization data",
-    "Header": "AC ED",
-    "Hex": "0xaced",
-    "File extension": "(none)",
-    "FileClass": "Programming",
-    "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
   {
@@ -4681,15 +4474,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "NAV quarantined virus file",
-    "Header": "CD 20 AA AA 02 00 00 00",
-    "Hex": "0xcd20aaaa02000000",
-    "File extension": "(none)",
-    "FileClass": "Miscellaneous",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Acronis True Image_2",
     "Header": "CE 24 B9 A2 20 00 00 00",
     "Hex": "0xce24b9a220000000",
@@ -4708,15 +4492,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "OS X ABI Mach-O binary (32-bit reverse)",
-    "Header": "CE FA ED FE",
-    "Hex": "0xcefaedfe",
-    "File extension": "(none)",
-    "FileClass": "Programming",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Perfect Office document",
     "Header": "CF 11 E0 A1 B1 1A E1 00",
     "Hex": "0xcf11e0a1b11ae100",
@@ -4731,15 +4506,6 @@
     "Hex": "0xcfad12fe",
     "File extension": "DBX",
     "FileClass": "Email",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "OS X ABI Mach-O binary (64-bit reverse)",
-    "Header": "CF FA ED FE",
-    "Hex": "0xcffaedfe",
-    "File extension": "(none)",
-    "FileClass": "Programming",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -4915,15 +4681,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "WinDump (winpcap) capture file",
-    "Header": "D4 C3 B2 A1",
-    "Hex": "0xd4c3b2a1",
-    "File extension": "(none)",
-    "FileClass": "Network",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Windows graphics metafile",
     "Header": "D7 CD C6 9A",
     "Hex": "0xd7cdc69a",
@@ -5023,24 +4780,6 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "BitLocker boot sector (Vista)",
-    "Header": "EB 52 90 2D 46 56 45 2D",
-    "Hex": "0xeb52902d4656452d",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "BitLocker boot sector (Win7)",
-    "Header": "EB 58 90 2D 46 56 45 2D",
-    "Hex": "0xeb58902d4656452d",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Word document subheader",
     "Header": "EC A5 C1 00",
     "Hex": "0xeca5c100",
@@ -5055,15 +4794,6 @@
     "Hex": "0xedabeedb",
     "File extension": "RPM",
     "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "UTF-8 file",
-    "Header": "EF BB BF",
-    "Hex": "0xefbbbf",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -5091,42 +4821,6 @@
     "Hex": "0xefbbbf3c3f786d6c2076657273696f6e",
     "File extension": "YTT",
     "FileClass": "Video",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "FAT12 File Allocation Table",
-    "Header": "F0 FF FF",
-    "Hex": "0xf0ffff",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "FAT16 File Allocation Table",
-    "Header": "F8 FF FF FF",
-    "Hex": "0xf8ffffff",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "FAT32 File Allocation Table_1",
-    "Header": "F8 FF FF 0F FF FF FF 0F",
-    "Hex": "0xf8ffff0fffffff0f",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "FAT32 File Allocation Table_2",
-    "Header": "F8 FF FF 0F FF FF FF FF",
-    "Hex": "0xf8ffff0fffffffff",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -5275,47 +4969,11 @@
     "Trailer (hex)": "(null)"
   },
   {
-    "File description": "OS X ABI Mach-O binary (32-bit)",
-    "Header": "FE ED FA CE",
-    "Hex": "0xfeedface",
-    "File extension": "(none)",
-    "FileClass": "Programming",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "OS X ABI Mach-O binary (64-bit)",
-    "Header": "FE ED FA CF",
-    "Hex": "0xfeedfacf",
-    "File extension": "(none)",
-    "FileClass": "Programming",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "JavaKeyStore",
-    "Header": "FE ED FE ED",
-    "Hex": "0xfeedfeed",
-    "File extension": "(none)",
-    "FileClass": "Programming",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
     "File description": "Symantex Ghost image file",
     "Header": "FE EF",
     "Hex": "0xfeef",
     "File extension": "GHO|GHS",
     "FileClass": "Compressed archive",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "UTF-16-UCS-2 file",
-    "Header": "FE FF",
-    "Hex": "0xfeff",
-    "File extension": "(none)",
-    "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"
   },
@@ -5414,24 +5072,6 @@
     "Header": "FF FE",
     "Hex": "0xfffe",
     "File extension": "REG",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "UTF-32-UCS-2 file",
-    "Header": "FF FE",
-    "Hex": "0xfffe",
-    "File extension": "(none)",
-    "FileClass": "Windows",
-    "Header offset": "0",
-    "Trailer (hex)": "(null)"
-  },
-  {
-    "File description": "UTF-32-UCS-4 file",
-    "Header": "FF FE 00 00",
-    "Hex": "0xfffe0000",
-    "File extension": "(none)",
     "FileClass": "Windows",
     "Header offset": "0",
     "Trailer (hex)": "(null)"

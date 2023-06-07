@@ -1,6 +1,7 @@
 import sys
 import json as js
 import pandas as pd
+import time
 
 FILE_NOT_FOUND_ERROR_MESSAGE = """
     Falha na leitura do arquivo"
@@ -31,7 +32,8 @@ def read_dataset(path: str):
 
     return dataset
 
-def find_file_sign(header, path):
+
+def find_file_sign(header:str, path:str):
     """
     Percorre todos os bytes de um arquivo em busca de um assinatura
 
@@ -57,7 +59,8 @@ def find_file_sign(header, path):
     
     return count
 
-def search_headers(dataset, path, header=None):
+
+def search_headers(dataset:pd.DataFrame, path:str):
     """
     Faz a busca por todos cabeçalhos de arquivos contidos no dataset 
     e retorna 
@@ -73,37 +76,58 @@ def search_headers(dataset, path, header=None):
     """
     dataset['Found'] = 0
     
-    if header:
-        qtd_files = find_file_sign(header, path)
-        dataset.loc[dataset['Hex'] == header, ['Found']] = qtd_files
+    for row in dataset.itertuples():
+        hex_str = row[3]
+        
+        qtd_files = find_file_sign(hex_str, path)
 
-        print(dataset.loc[dataset['Hex'] == header].to_string(index=False))
-    else:
-        for row in dataset.itertuples():
-            hex_str = row[3]
-            
-            qtd_files = find_file_sign(hex_str, path)
+        dataset.loc[dataset['Hex'] == hex_str, ['Found']] = qtd_files
 
-            dataset.loc[dataset['Hex'] == hex_str, ['Found']] = qtd_files
-
-            if qtd_files > 0:
+        if qtd_files > 0:
                 print(dataset.loc[dataset['Hex'] == hex_str].to_string(index=False))
 
 
-def run(path, file_sigs_path, header=None):
-    dataset = read_dataset(file_sigs_path)
-    search_headers(dataset, path, header)
+def filter_dataset(dataset:pd.DataFrame, headers:list[str]=None):
+    """
+    Filtra todos so cabeçalhos conhecidos no dataset
+    params:
+        `dataset`: dataset com assinatura de arquivos
+        `headers`: lista de assinatura de arquivos
+    return:
+        dataset de assinatura filtrato
+    """
+    if headers:
+        dataset = dataset.query(f"Hex in ({headers})")
 
+    return dataset
+
+def run(path:str, path_dataset:str, headers:list[str]=None):
+    """
+    Função principal do programa
+
+    parmas:
+        `path` - path do arquivo que vai ser analisado
+        `path_dataset` - arquivo com dataset de assinaturas
+        `headers` - lista de assinaturas para serem filtradas na busca
+    """
+
+    start = time.time()
+
+    dataset = read_dataset(path_dataset)
+    dataset = filter_dataset(dataset, headers)
+    search_headers(dataset, path)
+    
+    end = time.time() - start
+    print("Tempo de execução: {:.2f} s".format(end))
 
 if __name__ == '__main__':
-    sig = None
-    
-    if len(sys.argv) > 1:
+    if len(sys.argv) == 1:
+        raise RuntimeError(
+            "Error: É necessário path de um arquivo para análise"
+        ) 
+    else:
         path = sys.argv[1]
-        try:
-            sig = sys.argv[2]
-        except:
-            pass
+        headers = sys.argv[2:]
         
-    run(path, 'test.json', header=sig)
+        run(path, 'file_sigs.json', headers)
     
